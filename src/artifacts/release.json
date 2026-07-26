@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-07-26T18:53:14.315Z",
+  "releaseId": "rel-2026-07-20-001",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    "src-bls-cpi-u-cuura422sa0",
+    "src-berkeley-socrata-gy8t-iqc4",
+    "src-sco-expenditures-ju3w-4gxp",
+    "src-sco-expenditures-per-capita-ykhf-vfsr",
+    "src-sco-revenues-per-capita-ky7j-fsk5",
+    "src-acfr-fy2025",
+    "src-budget-fy2025"
+  ],
+  "surface": "sco-standardized-actuals"
+}

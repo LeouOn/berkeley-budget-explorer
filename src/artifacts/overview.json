@@ -1,0 +1,71 @@
+{
+  "baseYear": 2024,
+  "insights": [
+    {
+      "body": "9 expenditure categories before FY2017 became 18 new categories post-FY2017. Comparisons across this boundary are approximate.",
+      "id": "schema-reorganization",
+      "title": "Schema reorganization"
+    },
+    {
+      "body": "Public Utilities and Other Expenditures grew 324.3% in real (FY2024) dollars from FY2018 to FY2024 — the largest real-dollar increase among SCO detailed categories.",
+      "id": "largest-real-growth",
+      "linkToCompare": [
+        "ent-sco-cat-public-utilities-and-other-expenditures"
+      ],
+      "title": "Largest real-dollar growth"
+    },
+    {
+      "body": "FY2025 General Fund: adopted $257.5M, actual $276.9M. Spent $19.4M (7.6%) more than adopted.",
+      "id": "general-fund-adopted-vs-actual",
+      "linkToCompare": [
+        "ent-budget-fy2025-general-fund-expenditure",
+        "ent-acfr-general-fund-expenditure"
+      ],
+      "title": "General Fund: Adopted vs Actual"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "snapshots": [
+    {
+      "baseYear": 2024,
+      "comparability": "reconstructed",
+      "estimatedPopulation": 125327,
+      "expendituresCents": 60335732500,
+      "fiscalYear": 2024,
+      "mode": "real",
+      "notes": [
+        "Every Overview figure is a California State Controller standardized actual for Berkeley, not an adopted budget figure.",
+        "Adopted-versus-actual variance is deferred to Phase 3 (PDF and ACFR review)."
+      ],
+      "perResidentExpendituresCents": 481426,
+      "perResidentRevenuesCents": 502841,
+      "revenuesCents": 63019494600,
+      "sources": [
+        "src-sco-expenditures-per-capita-ykhf-vfsr",
+        "src-sco-revenues-per-capita-ky7j-fsk5"
+      ],
+      "surface": "sco-standardized-actuals"
+    },
+    {
+      "baseYear": 2024,
+      "comparability": "reconstructed",
+      "estimatedPopulation": 118780,
+      "expendituresCents": 40866880790,
+      "fiscalYear": 2015,
+      "mode": "real",
+      "notes": [
+        "Every Overview figure is a California State Controller standardized actual for Berkeley, not an adopted budget figure.",
+        "Adopted-versus-actual variance is deferred to Phase 3 (PDF and ACFR review)."
+      ],
+      "perResidentExpendituresCents": 344055,
+      "perResidentRevenuesCents": 373817,
+      "revenuesCents": 44402031046,
+      "sources": [
+        "src-sco-expenditures-per-capita-ykhf-vfsr",
+        "src-sco-revenues-per-capita-ky7j-fsk5"
+      ],
+      "surface": "sco-standardized-actuals"
+    }
+  ],
+  "surface": "sco-standardized-actuals"
+}

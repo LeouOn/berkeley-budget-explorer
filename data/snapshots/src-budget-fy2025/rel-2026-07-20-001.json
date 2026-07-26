@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "reportType": "Adopted Budget",
+  "entity": "City of Berkeley",
+  "fiscalYear": 2025,
+  "sourceDocument": "FY 2025-2026 Adopted Biennial Budget",
+  "sourceUrl": "https://berkeleyca.gov/sites/default/files/documents/FY-2025-2026-Proposed-Biennial-Budget.pdf",
+  "extractedPages": {
+    "budgetMessage": 10,
+    "operatingOverview": 39,
+    "expenditureHistory": 41,
+    "expenditureByFund": 44
+  },
+  "allFunds": {
+    "totalRevenueCents": 67500000000,
+    "totalExpenditureCents": 74667136400
+  },
+  "generalFund": {
+    "revenueCents": 26922217700,
+    "expenditureCents": 25749324000,
+    "transfersInCents": 1095577700,
+    "transfersOutCents": 3494948000,
+    "resultsFromOperationsCents": -1226476600
+  },
+  "expenditureByCategory": {
+    "salariesAndBenefits": 38032907400,
+    "servicesAndMaterials": 15120843000,
+    "capitalOutlay": 7235634000,
+    "internalServicesAndAllOther": 14277752000
+  }
+}

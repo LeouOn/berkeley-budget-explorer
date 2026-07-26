@@ -1,0 +1,122 @@
+{
+  "baseYear": 2024,
+  "fiscalYearAverages": [
+    {
+      "averageIndex": 185.13333333333333,
+      "fiscalYear": 2003,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 189.5666666666667,
+      "fiscalYear": 2004,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 197.29999999999998,
+      "fiscalYear": 2005,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 207.16666666666666,
+      "fiscalYear": 2006,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 213.96299999999997,
+      "fiscalYear": 2007,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 221.74799999999996,
+      "fiscalYear": 2008,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 223.55016666666666,
+      "fiscalYear": 2009,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 224.97116666666668,
+      "fiscalYear": 2010,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 229.197,
+      "fiscalYear": 2011,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 233.97950000000003,
+      "fiscalYear": 2012,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 238.56566666666663,
+      "fiscalYear": 2013,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 240.82083333333333,
+      "fiscalYear": 2014,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 242.94950000000003,
+      "fiscalYear": 2015,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 247.1278333333333,
+      "fiscalYear": 2016,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 252.508,
+      "fiscalYear": 2017,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 261.41183333333333,
+      "fiscalYear": 2018,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 270.2851666666666,
+      "fiscalYear": 2019,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 276.8063333333334,
+      "fiscalYear": 2020,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 282.666,
+      "fiscalYear": 2021,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 301.4595,
+      "fiscalYear": 2022,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 317.15633333333335,
+      "fiscalYear": 2023,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 327.5353333333333,
+      "fiscalYear": 2024,
+      "observationCount": 6
+    },
+    {
+      "averageIndex": 337.6931666666667,
+      "fiscalYear": 2025,
+      "observationCount": 6
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "seriesId": "CUURA422SA0"
+}

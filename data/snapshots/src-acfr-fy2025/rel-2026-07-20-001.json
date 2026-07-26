@@ -1,0 +1,69 @@
+{
+  "entity": "City of Berkeley",
+  "expenditureByFunction": {
+    "capitalOutlay": 6122272100,
+    "communityDevelopmentAndHousing": 4632873800,
+    "cultureRecreation": 6239142000,
+    "debtServiceInterest": 875685100,
+    "debtServicePrincipal": 1047882400,
+    "economicDevelopment": 535877700,
+    "generalGovernment": 5372275600,
+    "healthAndWelfare": 5109317100,
+    "highwayAndStreets": 1662289400,
+    "publicSafety": 17125987000
+  },
+  "fiscalYear": 2025,
+  "fiscalYearEnd": "2025-06-30",
+  "fundGroups": {
+    "allGovernmentalFunds": {
+      "endingFundBalanceCents": 62191500400,
+      "netChangeInFundBalanceCents": 2191467600,
+      "totalExpenditureCents": 48757582900,
+      "totalRevenueCents": 48003318300
+    },
+    "breakdown": {
+      "capitalProjectsFund": {
+        "expenditure": 4726308800,
+        "fundBalance": 7043591900,
+        "revenue": 5657666400
+      },
+      "generalFund": {
+        "expenditure": 27694192400,
+        "fundBalance": 15487766500,
+        "revenue": 28584117200
+      },
+      "housing": {
+        "expenditure": 1608575400,
+        "fundBalance": 2383166900,
+        "revenue": 16101500
+      },
+      "libraryImprovementBond": {
+        "expenditure": 0,
+        "fundBalance": 8132686100,
+        "revenue": 191795000
+      },
+      "measureOGrrants": {
+        "expenditure": 2618671000,
+        "fundBalance": 2505473800,
+        "revenue": 2690499600
+      },
+      "otherGovFunds": {
+        "expenditure": 12109835300,
+        "fundBalance": 26638815200,
+        "revenue": 10863138600
+      }
+    },
+    "generalFund": {
+      "endingFundBalanceCents": 15487766500,
+      "totalExpenditureCents": 27694192400,
+      "totalRevenueCents": 28584117200
+    }
+  },
+  "reportType": "ACFR",
+  "schemaVersion": "1.0.0",
+  "sourcePages": {
+    "balanceSheet": 75,
+    "govFundsStatement": 77,
+    "reconciliation": 76
+  }
+}

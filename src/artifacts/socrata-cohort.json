@@ -1,0 +1,1659 @@
+{
+  "cohortEnd": 2015,
+  "cohortStart": 2012,
+  "schemaVersion": "1.0.0",
+  "serviceGroups": [
+    {
+      "rowCount": 315,
+      "serviceKey": "Operational Overhead",
+      "totalCents": 25346676100
+    },
+    {
+      "rowCount": 4936,
+      "serviceKey": "Administration",
+      "totalCents": 10781254500
+    },
+    {
+      "rowCount": 91,
+      "serviceKey": "Interfund Transfers Out",
+      "totalCents": 10432840900
+    },
+    {
+      "rowCount": 287,
+      "serviceKey": "Patrol",
+      "totalCents": 10212096500
+    },
+    {
+      "rowCount": 315,
+      "serviceKey": "Suppression/Rescue/Hazard",
+      "totalCents": 7589262600
+    },
+    {
+      "rowCount": 204,
+      "serviceKey": "Debt Service",
+      "totalCents": 6268120100
+    },
+    {
+      "rowCount": 297,
+      "serviceKey": "Emergency Medical Service",
+      "totalCents": 3771258700
+    },
+    {
+      "rowCount": 173,
+      "serviceKey": "Transfer & Disposal Service",
+      "totalCents": 3504529400
+    },
+    {
+      "rowCount": 159,
+      "serviceKey": "Sewers",
+      "totalCents": 2631820900
+    },
+    {
+      "rowCount": 253,
+      "serviceKey": "Equip - MTC - Corp Yard",
+      "totalCents": 2352945500
+    },
+    {
+      "rowCount": 21,
+      "serviceKey": "Pensions",
+      "totalCents": 2276084600
+    },
+    {
+      "rowCount": 127,
+      "serviceKey": "Residential Recycling",
+      "totalCents": 2201947500
+    },
+    {
+      "rowCount": 124,
+      "serviceKey": "Detective Bureau",
+      "totalCents": 2015975500
+    },
+    {
+      "rowCount": 388,
+      "serviceKey": "Streets",
+      "totalCents": 1903721400
+    },
+    {
+      "rowCount": 655,
+      "serviceKey": "Capital Projects",
+      "totalCents": 1790950500
+    },
+    {
+      "rowCount": 175,
+      "serviceKey": "Landscaping Services",
+      "totalCents": 1777261300
+    },
+    {
+      "rowCount": 4,
+      "serviceKey": "Community Agencies",
+      "totalCents": 1748863200
+    },
+    {
+      "rowCount": 218,
+      "serviceKey": "Sanitary Sewer Maintenance",
+      "totalCents": 1710822200
+    },
+    {
+      "rowCount": 129,
+      "serviceKey": "Residential Collection Service",
+      "totalCents": 1575917500
+    },
+    {
+      "rowCount": 213,
+      "serviceKey": "Parking Enforcement",
+      "totalCents": 1456026500
+    },
+    {
+      "rowCount": 118,
+      "serviceKey": "Central Communication",
+      "totalCents": 1454313200
+    },
+    {
+      "rowCount": 327,
+      "serviceKey": "Legal Advice & Litigation",
+      "totalCents": 1409570300
+    },
+    {
+      "rowCount": 248,
+      "serviceKey": "Clean Cities",
+      "totalCents": 1383075000
+    },
+    {
+      "rowCount": 129,
+      "serviceKey": "Commercial Collection Service",
+      "totalCents": 1380505000
+    },
+    {
+      "rowCount": 21,
+      "serviceKey": "Equipment Replacement",
+      "totalCents": 1375918800
+    },
+    {
+      "rowCount": 444,
+      "serviceKey": "Homeless Services",
+      "totalCents": 1289379900
+    },
+    {
+      "rowCount": 204,
+      "serviceKey": "Building and Safety",
+      "totalCents": 1175747800
+    },
+    {
+      "rowCount": 284,
+      "serviceKey": "Land Use Planning",
+      "totalCents": 1174916300
+    },
+    {
+      "rowCount": 169,
+      "serviceKey": "Economic Development",
+      "totalCents": 1125763300
+    },
+    {
+      "rowCount": 410,
+      "serviceKey": "Street Light Maintenance",
+      "totalCents": 1076729200
+    },
+    {
+      "rowCount": 127,
+      "serviceKey": "Special Enforcement Unit",
+      "totalCents": 1063011800
+    },
+    {
+      "rowCount": 39,
+      "serviceKey": "Community Agency",
+      "totalCents": 1043384800
+    },
+    {
+      "rowCount": 631,
+      "serviceKey": "Application Development",
+      "totalCents": 948515100
+    },
+    {
+      "rowCount": 123,
+      "serviceKey": "Circulation Services",
+      "totalCents": 925399400
+    },
+    {
+      "rowCount": 160,
+      "serviceKey": "Traffic Bureau",
+      "totalCents": 842637200
+    },
+    {
+      "rowCount": 184,
+      "serviceKey": "Marina Operations",
+      "totalCents": 818749700
+    },
+    {
+      "rowCount": 166,
+      "serviceKey": "Personnel and Training",
+      "totalCents": 807362600
+    },
+    {
+      "rowCount": 367,
+      "serviceKey": "Routine Building Maintenance",
+      "totalCents": 763552500
+    },
+    {
+      "rowCount": 165,
+      "serviceKey": "Forestry Service",
+      "totalCents": 757012100
+    },
+    {
+      "rowCount": 148,
+      "serviceKey": "Commercial Recycling",
+      "totalCents": 725727300
+    },
+    {
+      "rowCount": 518,
+      "serviceKey": "Buildings",
+      "totalCents": 683683500
+    },
+    {
+      "rowCount": 51,
+      "serviceKey": "Residential Organics",
+      "totalCents": 671931500
+    },
+    {
+      "rowCount": 260,
+      "serviceKey": "Communication System Main",
+      "totalCents": 666890600
+    },
+    {
+      "rowCount": 569,
+      "serviceKey": "Office of the Manager",
+      "totalCents": 657889200
+    },
+    {
+      "rowCount": 220,
+      "serviceKey": "Executive Administration: Animal Care Services",
+      "totalCents": 651965600
+    },
+    {
+      "rowCount": 107,
+      "serviceKey": "Jail Unit",
+      "totalCents": 629149300
+    },
+    {
+      "rowCount": 438,
+      "serviceKey": "Transportation Planning",
+      "totalCents": 628992000
+    },
+    {
+      "rowCount": 175,
+      "serviceKey": "Executive Administration: Administration",
+      "totalCents": 618862500
+    },
+    {
+      "rowCount": 843,
+      "serviceKey": "Administration & Fiscal Services",
+      "totalCents": 591878700
+    },
+    {
+      "rowCount": 373,
+      "serviceKey": "Customer Service 311",
+      "totalCents": 587576000
+    },
+    {
+      "rowCount": 204,
+      "serviceKey": "Tier 1 IST",
+      "totalCents": 568141300
+    },
+    {
+      "rowCount": 674,
+      "serviceKey": "Billing",
+      "totalCents": 562109200
+    },
+    {
+      "rowCount": 64,
+      "serviceKey": "Technical Services",
+      "totalCents": 547760100
+    },
+    {
+      "rowCount": 394,
+      "serviceKey": "Network Operations",
+      "totalCents": 543740300
+    },
+    {
+      "rowCount": 150,
+      "serviceKey": "Police Services",
+      "totalCents": 523707400
+    },
+    {
+      "rowCount": 143,
+      "serviceKey": "CSS FSP",
+      "totalCents": 518415200
+    },
+    {
+      "rowCount": 30,
+      "serviceKey": "#N/A",
+      "totalCents": 512911700
+    },
+    {
+      "rowCount": 186,
+      "serviceKey": "Parks Bldgs & System Maintenance",
+      "totalCents": 510703300
+    },
+    {
+      "rowCount": 199,
+      "serviceKey": "Parking Services",
+      "totalCents": 509644500
+    },
+    {
+      "rowCount": 375,
+      "serviceKey": "FYC Treatment",
+      "totalCents": 506106700
+    },
+    {
+      "rowCount": 117,
+      "serviceKey": "Library Information Systems",
+      "totalCents": 497580400
+    },
+    {
+      "rowCount": 336,
+      "serviceKey": "Street Maintenance",
+      "totalCents": 496916700
+    },
+    {
+      "rowCount": 43,
+      "serviceKey": "Housint Trust Fund Projects",
+      "totalCents": 495418600
+    },
+    {
+      "rowCount": 54,
+      "serviceKey": "Telegraph/Channing Garage",
+      "totalCents": 485763600
+    },
+    {
+      "rowCount": 136,
+      "serviceKey": "Capital Improvements",
+      "totalCents": 483597300
+    },
+    {
+      "rowCount": 204,
+      "serviceKey": "Janitorial Services",
+      "totalCents": 482634300
+    },
+    {
+      "rowCount": 76,
+      "serviceKey": "Policy & Accreditation",
+      "totalCents": 472900500
+    },
+    {
+      "rowCount": 116,
+      "serviceKey": "Reference",
+      "totalCents": 465555600
+    },
+    {
+      "rowCount": 242,
+      "serviceKey": "Storm Drain Maintenance",
+      "totalCents": 454912700
+    },
+    {
+      "rowCount": 136,
+      "serviceKey": "Permit Service Center",
+      "totalCents": 453183000
+    },
+    {
+      "rowCount": 253,
+      "serviceKey": "Targeted Case Management",
+      "totalCents": 441966100
+    },
+    {
+      "rowCount": 399,
+      "serviceKey": "Office of the Director",
+      "totalCents": 437911800
+    },
+    {
+      "rowCount": 127,
+      "serviceKey": "Children's & Teen Services",
+      "totalCents": 435700200
+    },
+    {
+      "rowCount": 156,
+      "serviceKey": "Clean Storm",
+      "totalCents": 426862200
+    },
+    {
+      "rowCount": 385,
+      "serviceKey": "Property Management",
+      "totalCents": 413831600
+    },
+    {
+      "rowCount": 75,
+      "serviceKey": "Technical Services & Collections Management",
+      "totalCents": 410938000
+    },
+    {
+      "rowCount": 175,
+      "serviceKey": "Employee Relations",
+      "totalCents": 407873200
+    },
+    {
+      "rowCount": 187,
+      "serviceKey": "Tuolumne Camp",
+      "totalCents": 405914500
+    },
+    {
+      "rowCount": 358,
+      "serviceKey": "Traffic Maintenance",
+      "totalCents": 402119700
+    },
+    {
+      "rowCount": 447,
+      "serviceKey": "Energy & Sustainability",
+      "totalCents": 397197300
+    },
+    {
+      "rowCount": 284,
+      "serviceKey": "Recreation Administration",
+      "totalCents": 396738200
+    },
+    {
+      "rowCount": 181,
+      "serviceKey": "Youth Employment",
+      "totalCents": 388901500
+    },
+    {
+      "rowCount": 105,
+      "serviceKey": "Facilities",
+      "totalCents": 388464500
+    },
+    {
+      "rowCount": 125,
+      "serviceKey": "North Branch",
+      "totalCents": 382646800
+    },
+    {
+      "rowCount": 197,
+      "serviceKey": "Executive Administration: Neighborhood Services",
+      "totalCents": 379241600
+    },
+    {
+      "rowCount": 66,
+      "serviceKey": "Center Street Garage",
+      "totalCents": 367663400
+    },
+    {
+      "rowCount": 79,
+      "serviceKey": "City Jail Operations",
+      "totalCents": 367221500
+    },
+    {
+      "rowCount": 200,
+      "serviceKey": "Crisis Services",
+      "totalCents": 366083400
+    },
+    {
+      "rowCount": 171,
+      "serviceKey": "Payroll Audit",
+      "totalCents": 362320000
+    },
+    {
+      "rowCount": 88,
+      "serviceKey": "Public Safety Systems",
+      "totalCents": 346134000
+    },
+    {
+      "rowCount": 119,
+      "serviceKey": "Claremont Branch",
+      "totalCents": 343133200
+    },
+    {
+      "rowCount": 254,
+      "serviceKey": "Disaster Preparedness",
+      "totalCents": 338233300
+    },
+    {
+      "rowCount": 4,
+      "serviceKey": "Interfund Loan Repayments",
+      "totalCents": 337187300
+    },
+    {
+      "rowCount": 148,
+      "serviceKey": "City Clerk: Operations",
+      "totalCents": 333730600
+    },
+    {
+      "rowCount": 148,
+      "serviceKey": "Toxics & Poll Prev/CUPA",
+      "totalCents": 330476000
+    },
+    {
+      "rowCount": 253,
+      "serviceKey": "Financial Admin Services",
+      "totalCents": 324043800
+    },
+    {
+      "rowCount": 170,
+      "serviceKey": "Program Development",
+      "totalCents": 322937100
+    },
+    {
+      "rowCount": 111,
+      "serviceKey": "West Branch",
+      "totalCents": 320470900
+    },
+    {
+      "rowCount": 131,
+      "serviceKey": "Fire Prevention",
+      "totalCents": 317509900
+    },
+    {
+      "rowCount": 115,
+      "serviceKey": "Public Health Realignment",
+      "totalCents": 314349600
+    },
+    {
+      "rowCount": 187,
+      "serviceKey": "Traffic Engineering",
+      "totalCents": 313074400
+    },
+    {
+      "rowCount": 241,
+      "serviceKey": "Environmental Health",
+      "totalCents": 310498500
+    },
+    {
+      "rowCount": 135,
+      "serviceKey": "General Audit",
+      "totalCents": 308151600
+    },
+    {
+      "rowCount": 145,
+      "serviceKey": "Personnel & Admin Services",
+      "totalCents": 308037800
+    },
+    {
+      "rowCount": 117,
+      "serviceKey": "Counter/Call Center",
+      "totalCents": 306698800
+    },
+    {
+      "rowCount": 116,
+      "serviceKey": "South Branch",
+      "totalCents": 302918200
+    },
+    {
+      "rowCount": 194,
+      "serviceKey": "North Berkeley Senior Center",
+      "totalCents": 301665400
+    },
+    {
+      "rowCount": 334,
+      "serviceKey": "Traffic Signal Maintenance",
+      "totalCents": 288679400
+    },
+    {
+      "rowCount": 137,
+      "serviceKey": "Procurement",
+      "totalCents": 286460900
+    },
+    {
+      "rowCount": 218,
+      "serviceKey": "Sidewalks",
+      "totalCents": 273130300
+    },
+    {
+      "rowCount": 259,
+      "serviceKey": "Parks CIP Planning - Hard",
+      "totalCents": 271468600
+    },
+    {
+      "rowCount": 86,
+      "serviceKey": "Excecutive Administration: Budget & Fiscal Management",
+      "totalCents": 271270700
+    },
+    {
+      "rowCount": 199,
+      "serviceKey": "Fire Training",
+      "totalCents": 268842300
+    },
+    {
+      "rowCount": 114,
+      "serviceKey": "Marina Landscaping",
+      "totalCents": 265792000
+    },
+    {
+      "rowCount": 154,
+      "serviceKey": "Parking Meter Collection",
+      "totalCents": 259393200
+    },
+    {
+      "rowCount": 88,
+      "serviceKey": "Prevention & Early Intervention",
+      "totalCents": 254394800
+    },
+    {
+      "rowCount": 373,
+      "serviceKey": "Inspections and Permits",
+      "totalCents": 248737200
+    },
+    {
+      "rowCount": 145,
+      "serviceKey": "South Berkeley Senior Center",
+      "totalCents": 247898800
+    },
+    {
+      "rowCount": 124,
+      "serviceKey": "Marina Maintenance",
+      "totalCents": 246955200
+    },
+    {
+      "rowCount": 121,
+      "serviceKey": "Marina Administration",
+      "totalCents": 246697000
+    },
+    {
+      "rowCount": 76,
+      "serviceKey": "Internal Affairs",
+      "totalCents": 239914400
+    },
+    {
+      "rowCount": 159,
+      "serviceKey": "Francis Albrier Center",
+      "totalCents": 238108000
+    },
+    {
+      "rowCount": 211,
+      "serviceKey": "Parks CIP Planning - Soft",
+      "totalCents": 235347900
+    },
+    {
+      "rowCount": 56,
+      "serviceKey": "Systems Support",
+      "totalCents": 229092400
+    },
+    {
+      "rowCount": 86,
+      "serviceKey": "Arts Coordination",
+      "totalCents": 228361000
+    },
+    {
+      "rowCount": 378,
+      "serviceKey": "Program Planning",
+      "totalCents": 226022100
+    },
+    {
+      "rowCount": 95,
+      "serviceKey": "Police Administration",
+      "totalCents": 224192200
+    },
+    {
+      "rowCount": 91,
+      "serviceKey": "Crime Scene Unit",
+      "totalCents": 223741400
+    },
+    {
+      "rowCount": 91,
+      "serviceKey": "Repair/Maintenance",
+      "totalCents": 218684400
+    },
+    {
+      "rowCount": 91,
+      "serviceKey": "Litter Collection Service",
+      "totalCents": 215750800
+    },
+    {
+      "rowCount": 109,
+      "serviceKey": "School Based Clinics",
+      "totalCents": 214895700
+    },
+    {
+      "rowCount": 443,
+      "serviceKey": "Housing Development Program",
+      "totalCents": 212485200
+    },
+    {
+      "rowCount": 111,
+      "serviceKey": "City Wide Athletics",
+      "totalCents": 207776400
+    },
+    {
+      "rowCount": 109,
+      "serviceKey": "Mayor's Office",
+      "totalCents": 205117800
+    },
+    {
+      "rowCount": 165,
+      "serviceKey": "Echo Lake Camp",
+      "totalCents": 194784700
+    },
+    {
+      "rowCount": 123,
+      "serviceKey": "Police Review Commission: Administration",
+      "totalCents": 188944700
+    },
+    {
+      "rowCount": 73,
+      "serviceKey": "Targeted Case Management - Match",
+      "totalCents": 188303000
+    },
+    {
+      "rowCount": 115,
+      "serviceKey": "Field Services",
+      "totalCents": 187436500
+    },
+    {
+      "rowCount": 127,
+      "serviceKey": "Art and Music",
+      "totalCents": 187120400
+    },
+    {
+      "rowCount": 76,
+      "serviceKey": "City Clerk: Records Management",
+      "totalCents": 184467700
+    },
+    {
+      "rowCount": 91,
+      "serviceKey": "Container/Cart Maintenance",
+      "totalCents": 182837600
+    },
+    {
+      "rowCount": 46,
+      "serviceKey": "Commercial Organics",
+      "totalCents": 182547100
+    },
+    {
+      "rowCount": 68,
+      "serviceKey": "Housing Code Enforcement",
+      "totalCents": 179937000
+    },
+    {
+      "rowCount": 51,
+      "serviceKey": "Council Offices",
+      "totalCents": 178881500
+    },
+    {
+      "rowCount": 158,
+      "serviceKey": "Women, Infants, & Children",
+      "totalCents": 178154800
+    },
+    {
+      "rowCount": 269,
+      "serviceKey": "Housing Rehabilitation",
+      "totalCents": 175532700
+    },
+    {
+      "rowCount": 161,
+      "serviceKey": "Young Adult Program",
+      "totalCents": 173523000
+    },
+    {
+      "rowCount": 4,
+      "serviceKey": "Non Center Street CIP",
+      "totalCents": 167159700
+    },
+    {
+      "rowCount": 87,
+      "serviceKey": "King Swim Center",
+      "totalCents": 166917300
+    },
+    {
+      "rowCount": 145,
+      "serviceKey": "Marina Recreation Program",
+      "totalCents": 166789900
+    },
+    {
+      "rowCount": 58,
+      "serviceKey": "Parking Meter Maintenance",
+      "totalCents": 162893000
+    },
+    {
+      "rowCount": 67,
+      "serviceKey": "Treasury",
+      "totalCents": 162040400
+    },
+    {
+      "rowCount": 88,
+      "serviceKey": "Roll-Off Container Service",
+      "totalCents": 162031300
+    },
+    {
+      "rowCount": 226,
+      "serviceKey": "Comprehensive Family Planning",
+      "totalCents": 161593000
+    },
+    {
+      "rowCount": 69,
+      "serviceKey": "Elections: Regular Elections",
+      "totalCents": 161543900
+    },
+    {
+      "rowCount": 627,
+      "serviceKey": "Corp Yard: Administration",
+      "totalCents": 159525100
+    },
+    {
+      "rowCount": 88,
+      "serviceKey": "Crime Analysis",
+      "totalCents": 152841100
+    },
+    {
+      "rowCount": 111,
+      "serviceKey": "Live Oak Recreational Center",
+      "totalCents": 150937200
+    },
+    {
+      "rowCount": 82,
+      "serviceKey": "Rental Housing Safety Program",
+      "totalCents": 150440500
+    },
+    {
+      "rowCount": 116,
+      "serviceKey": "Vital Statistics",
+      "totalCents": 150335100
+    },
+    {
+      "rowCount": 125,
+      "serviceKey": "Corp Yard Administration",
+      "totalCents": 148549600
+    },
+    {
+      "rowCount": 70,
+      "serviceKey": "A/P",
+      "totalCents": 145555300
+    },
+    {
+      "rowCount": 134,
+      "serviceKey": "James Kenney",
+      "totalCents": 145551900
+    },
+    {
+      "rowCount": 97,
+      "serviceKey": "CSS System Development",
+      "totalCents": 145185800
+    },
+    {
+      "rowCount": 121,
+      "serviceKey": "Adult Health Program",
+      "totalCents": 137333500
+    },
+    {
+      "rowCount": 58,
+      "serviceKey": "Recreation Special Fee Class",
+      "totalCents": 136767200
+    },
+    {
+      "rowCount": 96,
+      "serviceKey": "Redevelopment Agency",
+      "totalCents": 136461900
+    },
+    {
+      "rowCount": 119,
+      "serviceKey": "Literacy Programs",
+      "totalCents": 129086300
+    },
+    {
+      "rowCount": 158,
+      "serviceKey": "Fire Fuel Management",
+      "totalCents": 127286400
+    },
+    {
+      "rowCount": 106,
+      "serviceKey": "Training & Org Development",
+      "totalCents": 124473600
+    },
+    {
+      "rowCount": 123,
+      "serviceKey": "Sidewalk Maintenance",
+      "totalCents": 122244800
+    },
+    {
+      "rowCount": 24,
+      "serviceKey": "Police Reserves",
+      "totalCents": 120155400
+    },
+    {
+      "rowCount": 97,
+      "serviceKey": "CSS MCO",
+      "totalCents": 119687400
+    },
+    {
+      "rowCount": 389,
+      "serviceKey": "Customer Service",
+      "totalCents": 118209800
+    },
+    {
+      "rowCount": 115,
+      "serviceKey": "Corporation Yard Shared OH Costs",
+      "totalCents": 116243300
+    },
+    {
+      "rowCount": 44,
+      "serviceKey": "Innovations",
+      "totalCents": 116062500
+    },
+    {
+      "rowCount": 110,
+      "serviceKey": "Mail Services",
+      "totalCents": 114302700
+    },
+    {
+      "rowCount": 69,
+      "serviceKey": "Tool Lending",
+      "totalCents": 113520100
+    },
+    {
+      "rowCount": 479,
+      "serviceKey": "Budget & Fiscal",
+      "totalCents": 113492700
+    },
+    {
+      "rowCount": 67,
+      "serviceKey": "Public Information",
+      "totalCents": 107873200
+    },
+    {
+      "rowCount": 122,
+      "serviceKey": "Collection",
+      "totalCents": 106263300
+    },
+    {
+      "rowCount": 140,
+      "serviceKey": "Adult Employment",
+      "totalCents": 104508500
+    },
+    {
+      "rowCount": 126,
+      "serviceKey": "Vector Control",
+      "totalCents": 104429600
+    },
+    {
+      "rowCount": 99,
+      "serviceKey": "Office of the Health Officer",
+      "totalCents": 104404900
+    },
+    {
+      "rowCount": 130,
+      "serviceKey": "Meals Program",
+      "totalCents": 104299700
+    },
+    {
+      "rowCount": 290,
+      "serviceKey": "Toxics Mgmt.",
+      "totalCents": 100807500
+    },
+    {
+      "rowCount": 7,
+      "serviceKey": "Cable TV",
+      "totalCents": 100390500
+    },
+    {
+      "rowCount": 235,
+      "serviceKey": "General Electrical",
+      "totalCents": 100035500
+    },
+    {
+      "rowCount": 576,
+      "serviceKey": "Environmental Compliance",
+      "totalCents": 96198600
+    },
+    {
+      "rowCount": 12,
+      "serviceKey": "Telecommunications ",
+      "totalCents": 95079700
+    },
+    {
+      "rowCount": 132,
+      "serviceKey": "Aging Services Administration",
+      "totalCents": 94763500
+    },
+    {
+      "rowCount": 58,
+      "serviceKey": "Park/Marina",
+      "totalCents": 94505200
+    },
+    {
+      "rowCount": 132,
+      "serviceKey": "Section 8 Program",
+      "totalCents": 93864800
+    },
+    {
+      "rowCount": 94,
+      "serviceKey": "Admin",
+      "totalCents": 93792000
+    },
+    {
+      "rowCount": 79,
+      "serviceKey": "Health Disparities",
+      "totalCents": 93518100
+    },
+    {
+      "rowCount": 76,
+      "serviceKey": "CSS Administration",
+      "totalCents": 93493700
+    },
+    {
+      "rowCount": 102,
+      "serviceKey": "Swim Administration",
+      "totalCents": 90946600
+    },
+    {
+      "rowCount": 154,
+      "serviceKey": "Nut/Phy Activity State PG",
+      "totalCents": 89611400
+    },
+    {
+      "rowCount": 43,
+      "serviceKey": "Assertive Community Treat",
+      "totalCents": 85993600
+    },
+    {
+      "rowCount": 122,
+      "serviceKey": "Day Camp",
+      "totalCents": 85117900
+    },
+    {
+      "rowCount": 36,
+      "serviceKey": "Brower Center/Oxford Garage",
+      "totalCents": 84864100
+    },
+    {
+      "rowCount": 175,
+      "serviceKey": "Gen Engineering Services",
+      "totalCents": 83458900
+    },
+    {
+      "rowCount": 61,
+      "serviceKey": "Environmental",
+      "totalCents": 76130300
+    },
+    {
+      "rowCount": 100,
+      "serviceKey": "Sustainable Development",
+      "totalCents": 74561900
+    },
+    {
+      "rowCount": 77,
+      "serviceKey": "C.H.D.P",
+      "totalCents": 74236700
+    },
+    {
+      "rowCount": 141,
+      "serviceKey": "Office of the Chief",
+      "totalCents": 72228000
+    },
+    {
+      "rowCount": 73,
+      "serviceKey": "M.C.H/C.P.S.P",
+      "totalCents": 70619400
+    },
+    {
+      "rowCount": 78,
+      "serviceKey": "Program Management",
+      "totalCents": 70477200
+    },
+    {
+      "rowCount": 105,
+      "serviceKey": "Teen Program",
+      "totalCents": 69726800
+    },
+    {
+      "rowCount": 114,
+      "serviceKey": "Measure A ? School Nurse",
+      "totalCents": 69287800
+    },
+    {
+      "rowCount": 62,
+      "serviceKey": "Equal Employment Opportunity and Diversity",
+      "totalCents": 67947600
+    },
+    {
+      "rowCount": 65,
+      "serviceKey": "Public Health Nursing/Clinic Services",
+      "totalCents": 67631100
+    },
+    {
+      "rowCount": 77,
+      "serviceKey": "E.P.S.D.T - P.H.N",
+      "totalCents": 66605200
+    },
+    {
+      "rowCount": 51,
+      "serviceKey": "West Campus Swim Center",
+      "totalCents": 66440400
+    },
+    {
+      "rowCount": 106,
+      "serviceKey": "Response/Preparedness Team",
+      "totalCents": 66199000
+    },
+    {
+      "rowCount": 93,
+      "serviceKey": "Sewer Emergencies",
+      "totalCents": 62699600
+    },
+    {
+      "rowCount": 34,
+      "serviceKey": "Engineering Permits",
+      "totalCents": 61213400
+    },
+    {
+      "rowCount": 144,
+      "serviceKey": "SBHC ? Screening",
+      "totalCents": 59601900
+    },
+    {
+      "rowCount": 106,
+      "serviceKey": "Smoking Tobacco Act",
+      "totalCents": 59136300
+    },
+    {
+      "rowCount": 68,
+      "serviceKey": "Health Clinic Services",
+      "totalCents": 58732700
+    },
+    {
+      "rowCount": 83,
+      "serviceKey": "Tobacco Prevention",
+      "totalCents": 57514100
+    },
+    {
+      "rowCount": 63,
+      "serviceKey": "PCEI",
+      "totalCents": 53900800
+    },
+    {
+      "rowCount": 89,
+      "serviceKey": "Foster Care ? PHN",
+      "totalCents": 52370700
+    },
+    {
+      "rowCount": 111,
+      "serviceKey": "Title III Meals",
+      "totalCents": 51102300
+    },
+    {
+      "rowCount": 48,
+      "serviceKey": "Special Events",
+      "totalCents": 50846200
+    },
+    {
+      "rowCount": 80,
+      "serviceKey": "Toxics Mgmt/Stormwater",
+      "totalCents": 49496100
+    },
+    {
+      "rowCount": 62,
+      "serviceKey": "Waste Tire Enforcement",
+      "totalCents": 49242700
+    },
+    {
+      "rowCount": 90,
+      "serviceKey": "Playground Program",
+      "totalCents": 48750700
+    },
+    {
+      "rowCount": 90,
+      "serviceKey": "M.C.H/C.P.S.P ? Match",
+      "totalCents": 48202900
+    },
+    {
+      "rowCount": 33,
+      "serviceKey": "Fire Plan Checks",
+      "totalCents": 47555700
+    },
+    {
+      "rowCount": 4,
+      "serviceKey": "Benefits",
+      "totalCents": 46714200
+    },
+    {
+      "rowCount": 65,
+      "serviceKey": "South Berkeley Revitalization",
+      "totalCents": 45943700
+    },
+    {
+      "rowCount": 77,
+      "serviceKey": "Inclusion Program",
+      "totalCents": 45876800
+    },
+    {
+      "rowCount": 93,
+      "serviceKey": "Abandoned Auto Abatement",
+      "totalCents": 44978900
+    },
+    {
+      "rowCount": 77,
+      "serviceKey": "West Berkeley Senior Center",
+      "totalCents": 43632000
+    },
+    {
+      "rowCount": 71,
+      "serviceKey": "Councilmember Worthington",
+      "totalCents": 43332300
+    },
+    {
+      "rowCount": 54,
+      "serviceKey": "Tennis Program",
+      "totalCents": 41743600
+    },
+    {
+      "rowCount": 67,
+      "serviceKey": "Councilmember Moore",
+      "totalCents": 41486000
+    },
+    {
+      "rowCount": 61,
+      "serviceKey": "MCH/BUSD High Hlt Ctr.",
+      "totalCents": 41155700
+    },
+    {
+      "rowCount": 10,
+      "serviceKey": "Gilman Sports Field",
+      "totalCents": 40319400
+    },
+    {
+      "rowCount": 79,
+      "serviceKey": "Councilmember Capitelli",
+      "totalCents": 40003500
+    },
+    {
+      "rowCount": 92,
+      "serviceKey": "Councilmember Arreguin",
+      "totalCents": 39215600
+    },
+    {
+      "rowCount": 78,
+      "serviceKey": "Black Infant Health Program",
+      "totalCents": 38974900
+    },
+    {
+      "rowCount": 47,
+      "serviceKey": "Summer Youth Lunch",
+      "totalCents": 38312800
+    },
+    {
+      "rowCount": 66,
+      "serviceKey": "C.F.P. Title X ? Federal",
+      "totalCents": 37780300
+    },
+    {
+      "rowCount": 66,
+      "serviceKey": "Councilmember Maio",
+      "totalCents": 37229500
+    },
+    {
+      "rowCount": 60,
+      "serviceKey": "Councilmember Anderson",
+      "totalCents": 36692700
+    },
+    {
+      "rowCount": 43,
+      "serviceKey": "ParaTransit",
+      "totalCents": 35730100
+    },
+    {
+      "rowCount": 95,
+      "serviceKey": "Housing",
+      "totalCents": 35676300
+    },
+    {
+      "rowCount": 6,
+      "serviceKey": "Elections: Ranked Choice Voting",
+      "totalCents": 35524300
+    },
+    {
+      "rowCount": 89,
+      "serviceKey": "Energy Programs",
+      "totalCents": 35450600
+    },
+    {
+      "rowCount": 45,
+      "serviceKey": "Disability Services",
+      "totalCents": 34736100
+    },
+    {
+      "rowCount": 60,
+      "serviceKey": "Finance",
+      "totalCents": 34339600
+    },
+    {
+      "rowCount": 91,
+      "serviceKey": "Hypertension",
+      "totalCents": 33833400
+    },
+    {
+      "rowCount": 44,
+      "serviceKey": "Tier 2 Wellness",
+      "totalCents": 33504900
+    },
+    {
+      "rowCount": 103,
+      "serviceKey": "Willard Recreation Center",
+      "totalCents": 33105100
+    },
+    {
+      "rowCount": 75,
+      "serviceKey": "Councilmember Wengraf",
+      "totalCents": 32743600
+    },
+    {
+      "rowCount": 60,
+      "serviceKey": "ADA Building Improvements",
+      "totalCents": 32352400
+    },
+    {
+      "rowCount": 87,
+      "serviceKey": "Tuberculosis",
+      "totalCents": 32308000
+    },
+    {
+      "rowCount": 64,
+      "serviceKey": "Councilmember Wozniak",
+      "totalCents": 31957000
+    },
+    {
+      "rowCount": 55,
+      "serviceKey": "Measure GG Preparedness",
+      "totalCents": 31771600
+    },
+    {
+      "rowCount": 77,
+      "serviceKey": "S.T.D./V.D",
+      "totalCents": 30377200
+    },
+    {
+      "rowCount": 56,
+      "serviceKey": "Licensing",
+      "totalCents": 27975300
+    },
+    {
+      "rowCount": 62,
+      "serviceKey": "Willard Swim Center",
+      "totalCents": 27778600
+    },
+    {
+      "rowCount": 40,
+      "serviceKey": "Community Services/Field Support",
+      "totalCents": 26263800
+    },
+    {
+      "rowCount": 39,
+      "serviceKey": "Tier 3 Community",
+      "totalCents": 25914000
+    },
+    {
+      "rowCount": 19,
+      "serviceKey": "Rentals",
+      "totalCents": 25376300
+    },
+    {
+      "rowCount": 65,
+      "serviceKey": "E.P.S.D.T - P.H.N ? Match",
+      "totalCents": 24815500
+    },
+    {
+      "rowCount": 100,
+      "serviceKey": "Maternal & Child Health",
+      "totalCents": 24349300
+    },
+    {
+      "rowCount": 108,
+      "serviceKey": "Internal Non-Routine Maintenance",
+      "totalCents": 24105900
+    },
+    {
+      "rowCount": 51,
+      "serviceKey": "Childhood Lead Poison Prevention",
+      "totalCents": 24030400
+    },
+    {
+      "rowCount": 2,
+      "serviceKey": "Low Income Housing Manage",
+      "totalCents": 24000000
+    },
+    {
+      "rowCount": 12,
+      "serviceKey": "Marina CIP Planning - Soft",
+      "totalCents": 22560000
+    },
+    {
+      "rowCount": 58,
+      "serviceKey": "Pandemic Flu Preparedness",
+      "totalCents": 22134100
+    },
+    {
+      "rowCount": 17,
+      "serviceKey": "Library Capital Projects",
+      "totalCents": 21941800
+    },
+    {
+      "rowCount": 93,
+      "serviceKey": "Tobacco Cessation",
+      "totalCents": 21237500
+    },
+    {
+      "rowCount": 102,
+      "serviceKey": "Information & Assistance",
+      "totalCents": 20034100
+    },
+    {
+      "rowCount": 97,
+      "serviceKey": "Family Caregiver",
+      "totalCents": 17781800
+    },
+    {
+      "rowCount": 78,
+      "serviceKey": "WET",
+      "totalCents": 17523900
+    },
+    {
+      "rowCount": 4,
+      "serviceKey": "Street Projects",
+      "totalCents": 17250000
+    },
+    {
+      "rowCount": 56,
+      "serviceKey": "Maternal Child Health",
+      "totalCents": 16182800
+    },
+    {
+      "rowCount": 56,
+      "serviceKey": "PSC Support",
+      "totalCents": 15658500
+    },
+    {
+      "rowCount": 24,
+      "serviceKey": "School Based Services",
+      "totalCents": 14360000
+    },
+    {
+      "rowCount": 47,
+      "serviceKey": "Health Education",
+      "totalCents": 14100000
+    },
+    {
+      "rowCount": 4,
+      "serviceKey": "Annuity Payments",
+      "totalCents": 13466800
+    },
+    {
+      "rowCount": 66,
+      "serviceKey": "Tuberculosis (CDCP)",
+      "totalCents": 13408500
+    },
+    {
+      "rowCount": 21,
+      "serviceKey": "Telegraph/Channing Mall",
+      "totalCents": 12938100
+    },
+    {
+      "rowCount": 49,
+      "serviceKey": "Public Health Infrastructure Tobacco",
+      "totalCents": 12689200
+    },
+    {
+      "rowCount": 54,
+      "serviceKey": "Berkeley Way Lot",
+      "totalCents": 12541000
+    },
+    {
+      "rowCount": 50,
+      "serviceKey": "A.I.D.S. Block Grant",
+      "totalCents": 12430600
+    },
+    {
+      "rowCount": 3,
+      "serviceKey": "Harrison Sports Field",
+      "totalCents": 12311800
+    },
+    {
+      "rowCount": 94,
+      "serviceKey": "Senior Programs",
+      "totalCents": 11079700
+    },
+    {
+      "rowCount": 52,
+      "serviceKey": "External Non-Routine Maintenance",
+      "totalCents": 10863700
+    },
+    {
+      "rowCount": 57,
+      "serviceKey": "Domestic Violence",
+      "totalCents": 9871900
+    },
+    {
+      "rowCount": 29,
+      "serviceKey": "A.I.D.S. Health Education",
+      "totalCents": 9718300
+    },
+    {
+      "rowCount": 56,
+      "serviceKey": "Latino Nutrition/Education",
+      "totalCents": 9233700
+    },
+    {
+      "rowCount": 32,
+      "serviceKey": "Special Collections",
+      "totalCents": 8509800
+    },
+    {
+      "rowCount": 40,
+      "serviceKey": "Surface Parking Lots",
+      "totalCents": 8478300
+    },
+    {
+      "rowCount": 58,
+      "serviceKey": "Lead Screening Assessment",
+      "totalCents": 6847600
+    },
+    {
+      "rowCount": 1,
+      "serviceKey": "Print Services",
+      "totalCents": 6564300
+    },
+    {
+      "rowCount": 12,
+      "serviceKey": "Berkeley Swim Center",
+      "totalCents": 6382000
+    },
+    {
+      "rowCount": 25,
+      "serviceKey": "TAY-FSP",
+      "totalCents": 5543200
+    },
+    {
+      "rowCount": 16,
+      "serviceKey": "Councilmember Droste",
+      "totalCents": 5341100
+    },
+    {
+      "rowCount": 4,
+      "serviceKey": "Sidewalk Projects",
+      "totalCents": 4350000
+    },
+    {
+      "rowCount": 19,
+      "serviceKey": "Injury Prevention",
+      "totalCents": 4209000
+    },
+    {
+      "rowCount": 1,
+      "serviceKey": "Equip ? MTC - Transfer Station",
+      "totalCents": 3937200
+    },
+    {
+      "rowCount": 50,
+      "serviceKey": "I.R.C.A Outreach Education",
+      "totalCents": 3818200
+    },
+    {
+      "rowCount": 1,
+      "serviceKey": "Recycling Services",
+      "totalCents": 3437000
+    },
+    {
+      "rowCount": 16,
+      "serviceKey": "YAP Summer Program",
+      "totalCents": 3183300
+    },
+    {
+      "rowCount": 17,
+      "serviceKey": "Young Adult Programs",
+      "totalCents": 2453300
+    },
+    {
+      "rowCount": 12,
+      "serviceKey": "Special Services",
+      "totalCents": 995200
+    },
+    {
+      "rowCount": 12,
+      "serviceKey": "Cazadero Camp",
+      "totalCents": 958100
+    },
+    {
+      "rowCount": 8,
+      "serviceKey": "Risk Based Initiative",
+      "totalCents": 868900
+    },
+    {
+      "rowCount": 4,
+      "serviceKey": "CSS One-Time Admin Funds",
+      "totalCents": 542900
+    },
+    {
+      "rowCount": 4,
+      "serviceKey": "Displacement Disbursement",
+      "totalCents": 406800
+    },
+    {
+      "rowCount": 8,
+      "serviceKey": "Elmwood Parking Lot",
+      "totalCents": 276800
+    },
+    {
+      "rowCount": 12,
+      "serviceKey": "ML King Rental",
+      "totalCents": 238800
+    },
+    {
+      "rowCount": 4,
+      "serviceKey": "UCB Summer Youth",
+      "totalCents": 59800
+    },
+    {
+      "rowCount": 8,
+      "serviceKey": "Real Estate Management",
+      "totalCents": 51400
+    },
+    {
+      "rowCount": 2,
+      "serviceKey": "AOP Treatment",
+      "totalCents": 41000
+    },
+    {
+      "rowCount": 12,
+      "serviceKey": "City Wide Fund Clubs",
+      "totalCents": 35300
+    },
+    {
+      "rowCount": 15,
+      "serviceKey": "Live Oak Rentals",
+      "totalCents": 28300
+    },
+    {
+      "rowCount": 1,
+      "serviceKey": "Alternative Test Site",
+      "totalCents": 20000
+    },
+    {
+      "rowCount": 10,
+      "serviceKey": "Public Health Institute",
+      "totalCents": 15900
+    },
+    {
+      "rowCount": 1,
+      "serviceKey": "James Kenney Rentals",
+      "totalCents": 10000
+    },
+    {
+      "rowCount": 1,
+      "serviceKey": "Telegraph Avenue",
+      "totalCents": 7800
+    },
+    {
+      "rowCount": 1,
+      "serviceKey": "University/Sp Disctrict",
+      "totalCents": 7800
+    },
+    {
+      "rowCount": 1,
+      "serviceKey": "No. Berk. Sr. CTR.",
+      "totalCents": 6700
+    },
+    {
+      "rowCount": 8,
+      "serviceKey": "Investments",
+      "totalCents": 4800
+    },
+    {
+      "rowCount": 1,
+      "serviceKey": "Shattuck Avenue",
+      "totalCents": 4300
+    }
+  ],
+  "surface": "sealed-cohort-do-not-stitch",
+  "totalLineItems": 47420
+}

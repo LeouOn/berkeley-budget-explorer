@@ -1,0 +1,271 @@
+{
+  "expenditureTrendCents": [
+    {
+      "estimatedPopulation": 104558,
+      "expendituresCents": 23467282600,
+      "fiscalYear": 2003,
+      "perResidentExpendituresCents": 224400
+    },
+    {
+      "estimatedPopulation": 104279,
+      "expendituresCents": 26522181400,
+      "fiscalYear": 2004,
+      "perResidentExpendituresCents": 254300
+    },
+    {
+      "estimatedPopulation": 104534,
+      "expendituresCents": 23156509700,
+      "fiscalYear": 2005,
+      "perResidentExpendituresCents": 221500
+    },
+    {
+      "estimatedPopulation": 105385,
+      "expendituresCents": 27853050900,
+      "fiscalYear": 2006,
+      "perResidentExpendituresCents": 264300
+    },
+    {
+      "estimatedPopulation": 106347,
+      "expendituresCents": 27967961500,
+      "fiscalYear": 2007,
+      "perResidentExpendituresCents": 263000
+    },
+    {
+      "estimatedPopulation": 106697,
+      "expendituresCents": 27929118800,
+      "fiscalYear": 2008,
+      "perResidentExpendituresCents": 261800
+    },
+    {
+      "estimatedPopulation": 107178,
+      "expendituresCents": 28804562200,
+      "fiscalYear": 2009,
+      "perResidentExpendituresCents": 268800
+    },
+    {
+      "estimatedPopulation": 108119,
+      "expendituresCents": 28947156700,
+      "fiscalYear": 2010,
+      "perResidentExpendituresCents": 267700
+    },
+    {
+      "estimatedPopulation": 114046,
+      "expendituresCents": 28913656200,
+      "fiscalYear": 2011,
+      "perResidentExpendituresCents": 253500
+    },
+    {
+      "estimatedPopulation": 114821,
+      "expendituresCents": 29561397100,
+      "fiscalYear": 2012,
+      "perResidentExpendituresCents": 257500
+    },
+    {
+      "estimatedPopulation": 115716,
+      "expendituresCents": 28574755200,
+      "fiscalYear": 2013,
+      "perResidentExpendituresCents": 246900
+    },
+    {
+      "estimatedPopulation": 117372,
+      "expendituresCents": 29398646200,
+      "fiscalYear": 2014,
+      "perResidentExpendituresCents": 250500
+    },
+    {
+      "estimatedPopulation": 118780,
+      "expendituresCents": 30313029600,
+      "fiscalYear": 2015,
+      "perResidentExpendituresCents": 255200
+    },
+    {
+      "estimatedPopulation": 119915,
+      "expendituresCents": 36693477700,
+      "fiscalYear": 2016,
+      "perResidentExpendituresCents": 306000
+    },
+    {
+      "estimatedPopulation": 121238,
+      "expendituresCents": 38815700200,
+      "fiscalYear": 2017,
+      "perResidentExpendituresCents": 320200
+    },
+    {
+      "estimatedPopulation": 121874,
+      "expendituresCents": 39587470400,
+      "fiscalYear": 2018,
+      "perResidentExpendituresCents": 324800
+    },
+    {
+      "estimatedPopulation": 123328,
+      "expendituresCents": 43810396300,
+      "fiscalYear": 2019,
+      "perResidentExpendituresCents": 355200
+    },
+    {
+      "estimatedPopulation": 122580,
+      "expendituresCents": 49318687600,
+      "fiscalYear": 2020,
+      "perResidentExpendituresCents": 402300
+    },
+    {
+      "estimatedPopulation": 121269,
+      "expendituresCents": 50981800100,
+      "fiscalYear": 2021,
+      "perResidentExpendituresCents": 420400
+    },
+    {
+      "estimatedPopulation": 124563,
+      "expendituresCents": 52542575200,
+      "fiscalYear": 2022,
+      "perResidentExpendituresCents": 421800
+    },
+    {
+      "estimatedPopulation": 123562,
+      "expendituresCents": 54949348300,
+      "fiscalYear": 2023,
+      "perResidentExpendituresCents": 444700
+    },
+    {
+      "estimatedPopulation": 125327,
+      "expendituresCents": 60335732500,
+      "fiscalYear": 2024,
+      "perResidentExpendituresCents": 481400
+    }
+  ],
+  "revenueTrendCents": [
+    {
+      "estimatedPopulation": 104558,
+      "fiscalYear": 2003,
+      "perResidentRevenuesCents": 229600,
+      "revenuesCents": 24007304300
+    },
+    {
+      "estimatedPopulation": 104279,
+      "fiscalYear": 2004,
+      "perResidentRevenuesCents": 247900,
+      "revenuesCents": 25847542500
+    },
+    {
+      "estimatedPopulation": 104534,
+      "fiscalYear": 2005,
+      "perResidentRevenuesCents": 259900,
+      "revenuesCents": 27166076400
+    },
+    {
+      "estimatedPopulation": 105385,
+      "fiscalYear": 2006,
+      "perResidentRevenuesCents": 274400,
+      "revenuesCents": 28912927800
+    },
+    {
+      "estimatedPopulation": 106347,
+      "fiscalYear": 2007,
+      "perResidentRevenuesCents": 277100,
+      "revenuesCents": 29473326200
+    },
+    {
+      "estimatedPopulation": 106697,
+      "fiscalYear": 2008,
+      "perResidentRevenuesCents": 271100,
+      "revenuesCents": 28922840100
+    },
+    {
+      "estimatedPopulation": 107178,
+      "fiscalYear": 2009,
+      "perResidentRevenuesCents": 280000,
+      "revenuesCents": 30013104200
+    },
+    {
+      "estimatedPopulation": 108119,
+      "fiscalYear": 2010,
+      "perResidentRevenuesCents": 280200,
+      "revenuesCents": 30293202100
+    },
+    {
+      "estimatedPopulation": 114046,
+      "fiscalYear": 2011,
+      "perResidentRevenuesCents": 274700,
+      "revenuesCents": 31330299000
+    },
+    {
+      "estimatedPopulation": 114821,
+      "fiscalYear": 2012,
+      "perResidentRevenuesCents": 252000,
+      "revenuesCents": 28931651600
+    },
+    {
+      "estimatedPopulation": 115716,
+      "fiscalYear": 2013,
+      "perResidentRevenuesCents": 255900,
+      "revenuesCents": 29609370400
+    },
+    {
+      "estimatedPopulation": 117372,
+      "fiscalYear": 2014,
+      "perResidentRevenuesCents": 287900,
+      "revenuesCents": 33785637200
+    },
+    {
+      "estimatedPopulation": 118780,
+      "fiscalYear": 2015,
+      "perResidentRevenuesCents": 277300,
+      "revenuesCents": 32935229100
+    },
+    {
+      "estimatedPopulation": 119915,
+      "fiscalYear": 2016,
+      "perResidentRevenuesCents": 333700,
+      "revenuesCents": 40010523200
+    },
+    {
+      "estimatedPopulation": 121238,
+      "fiscalYear": 2017,
+      "perResidentRevenuesCents": 336200,
+      "revenuesCents": 40756546900
+    },
+    {
+      "estimatedPopulation": 121874,
+      "fiscalYear": 2018,
+      "perResidentRevenuesCents": 360200,
+      "revenuesCents": 43897870400
+    },
+    {
+      "estimatedPopulation": 123328,
+      "fiscalYear": 2019,
+      "perResidentRevenuesCents": 393800,
+      "revenuesCents": 48564259700
+    },
+    {
+      "estimatedPopulation": 122580,
+      "fiscalYear": 2020,
+      "perResidentRevenuesCents": 408500,
+      "revenuesCents": 50075531100
+    },
+    {
+      "estimatedPopulation": 121269,
+      "fiscalYear": 2021,
+      "perResidentRevenuesCents": 420000,
+      "revenuesCents": 50930735800
+    },
+    {
+      "estimatedPopulation": 124563,
+      "fiscalYear": 2022,
+      "perResidentRevenuesCents": 493100,
+      "revenuesCents": 61417723300
+    },
+    {
+      "estimatedPopulation": 123562,
+      "fiscalYear": 2023,
+      "perResidentRevenuesCents": 512200,
+      "revenuesCents": 63286698800
+    },
+    {
+      "estimatedPopulation": 125327,
+      "fiscalYear": 2024,
+      "perResidentRevenuesCents": 502800,
+      "revenuesCents": 63019494600
+    }
+  ],
+  "schemaVersion": "1.0.0"
+}

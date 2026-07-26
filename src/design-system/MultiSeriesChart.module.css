@@ -1,0 +1,38 @@
+.figure {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-md);
+}
+
+.caption {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.chart {
+  width: 100%;
+  min-height: 340px;
+  overflow: visible;
+}
+
+.summary {
+  font-size: 0.9375rem;
+  color: var(--color-ink-muted);
+  max-width: var(--measure-prose);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chart {
+    transition: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart {
+    min-height: 260px;
+  }
+}

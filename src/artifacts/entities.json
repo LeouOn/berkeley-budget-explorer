@@ -1,0 +1,428 @@
+[
+  {
+    "canonicalName": "Citywide Berkeley Operations",
+    "id": "ent-citywide-berkeley",
+    "plainDescription": "Citywide total reported by the State Controller per-capita datasets.",
+    "type": "service"
+  },
+  {
+    "canonicalName": "Citywide Total Expenditures (SCO per-capita)",
+    "id": "ent-citywide-expenditure",
+    "plainDescription": "Authoritative City of Berkeley total expenditures FY2003-FY2024 from the State Controller per-capita dataset.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Citywide Total Revenues (SCO per-capita)",
+    "id": "ent-citywide-revenue",
+    "plainDescription": "Authoritative City of Berkeley total revenues FY2003-FY2024 from the State Controller per-capita dataset.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Community Development",
+    "id": "ent-sco-cat-community-development",
+    "plainDescription": "State Controller detailed expenditure category: Community Development.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Culture and Leisure",
+    "id": "ent-sco-cat-culture-and-leisure",
+    "plainDescription": "State Controller detailed expenditure category: Culture and Leisure.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "General Government",
+    "id": "ent-sco-cat-general-government",
+    "plainDescription": "State Controller detailed expenditure category: General Government.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Health",
+    "id": "ent-sco-cat-health",
+    "plainDescription": "State Controller detailed expenditure category: Health.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Other Expenditures",
+    "id": "ent-sco-cat-other-expenditures",
+    "plainDescription": "State Controller detailed expenditure category: Other Expenditures.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Public Safety",
+    "id": "ent-sco-cat-public-safety",
+    "plainDescription": "State Controller detailed expenditure category: Public Safety.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Public Utilities",
+    "id": "ent-sco-cat-public-utilities",
+    "plainDescription": "State Controller detailed expenditure category: Public Utilities.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Transportation",
+    "id": "ent-sco-cat-transportation",
+    "plainDescription": "State Controller detailed expenditure category: Transportation.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Airport Enterprise Fund",
+    "id": "ent-sco-cat-airport-enterprise-fund",
+    "plainDescription": "State Controller detailed expenditure category: Airport Enterprise Fund.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Conduit Financing",
+    "id": "ent-sco-cat-conduit-financing",
+    "plainDescription": "State Controller detailed expenditure category: Conduit Financing.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Debt Service and Capital Outlay",
+    "id": "ent-sco-cat-debt-service-and-capital-outlay",
+    "plainDescription": "State Controller detailed expenditure category: Debt Service and Capital Outlay.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Electric Enterprise Fund",
+    "id": "ent-sco-cat-electric-enterprise-fund",
+    "plainDescription": "State Controller detailed expenditure category: Electric Enterprise Fund.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Gas  Enterprise Fund",
+    "id": "ent-sco-cat-gas-enterprise-fund",
+    "plainDescription": "State Controller detailed expenditure category: Gas  Enterprise Fund.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Harbor and Port Enterprise Fund",
+    "id": "ent-sco-cat-harbor-and-port-enterprise-fund",
+    "plainDescription": "State Controller detailed expenditure category: Harbor and Port Enterprise Fund.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Hospital Enterprise Fund",
+    "id": "ent-sco-cat-hospital-enterprise-fund",
+    "plainDescription": "State Controller detailed expenditure category: Hospital Enterprise Fund.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Internal Service Fund",
+    "id": "ent-sco-cat-internal-service-fund",
+    "plainDescription": "State Controller detailed expenditure category: Internal Service Fund.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Other Enterprise Fund",
+    "id": "ent-sco-cat-other-enterprise-fund",
+    "plainDescription": "State Controller detailed expenditure category: Other Enterprise Fund.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Sewer Enterprise Fund",
+    "id": "ent-sco-cat-sewer-enterprise-fund",
+    "plainDescription": "State Controller detailed expenditure category: Sewer Enterprise Fund.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Solid Waste Enterprise Fund",
+    "id": "ent-sco-cat-solid-waste-enterprise-fund",
+    "plainDescription": "State Controller detailed expenditure category: Solid Waste Enterprise Fund.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Transit Enterprise Fund",
+    "id": "ent-sco-cat-transit-enterprise-fund",
+    "plainDescription": "State Controller detailed expenditure category: Transit Enterprise Fund.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Water Enterprise Fund",
+    "id": "ent-sco-cat-water-enterprise-fund",
+    "plainDescription": "State Controller detailed expenditure category: Water Enterprise Fund.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "General Government and Public Safety",
+    "id": "ent-sco-cat-general-government-and-public-safety",
+    "plainDescription": "State Controller detailed expenditure category: General Government and Public Safety.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Health and Culture and Leisure",
+    "id": "ent-sco-cat-health-and-culture-and-leisure",
+    "plainDescription": "State Controller detailed expenditure category: Health and Culture and Leisure.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Public Utilities and Other Expenditures",
+    "id": "ent-sco-cat-public-utilities-and-other-expenditures",
+    "plainDescription": "State Controller detailed expenditure category: Public Utilities and Other Expenditures.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Transportation and Community Development",
+    "id": "ent-sco-cat-transportation-and-community-development",
+    "plainDescription": "State Controller detailed expenditure category: Transportation and Community Development.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "ACFR FY2025 All Governmental Funds Revenue",
+    "id": "ent-acfr-gov-funds-total-revenue",
+    "plainDescription": "Audited total revenue across all Berkeley governmental funds for FY2025 (ACFR modified-accrual).",
+    "type": "fund"
+  },
+  {
+    "canonicalName": "ACFR FY2025 All Governmental Funds Expenditure",
+    "id": "ent-acfr-gov-funds-total-expenditure",
+    "plainDescription": "Audited total expenditure across all Berkeley governmental funds for FY2025 (ACFR modified-accrual).",
+    "type": "fund"
+  },
+  {
+    "canonicalName": "ACFR FY2025 All Governmental Funds Fund Balance",
+    "id": "ent-acfr-gov-funds-fund-balance",
+    "plainDescription": "Audited ending fund balance across all Berkeley governmental funds at FY2025 year-end (ACFR modified-accrual).",
+    "type": "fund"
+  },
+  {
+    "canonicalName": "ACFR FY2025 General Fund Revenue",
+    "id": "ent-acfr-general-fund-revenue",
+    "plainDescription": "Audited General Fund revenue for the City of Berkeley FY2025 (ACFR modified-accrual).",
+    "type": "fund"
+  },
+  {
+    "canonicalName": "ACFR FY2025 General Fund Expenditure",
+    "id": "ent-acfr-general-fund-expenditure",
+    "plainDescription": "Audited General Fund expenditure for the City of Berkeley FY2025 (ACFR modified-accrual).",
+    "type": "fund"
+  },
+  {
+    "canonicalName": "ACFR FY2025 General Fund Fund Balance",
+    "id": "ent-acfr-general-fund-balance",
+    "plainDescription": "Audited General Fund ending balance for the City of Berkeley at FY2025 year-end (ACFR modified-accrual).",
+    "type": "fund"
+  },
+  {
+    "canonicalName": "FY2025 Adopted Budget: All Funds Revenue",
+    "id": "ent-budget-fy2025-all-funds-revenue",
+    "plainDescription": "Adopted FY2025 revenue across all Berkeley funds (budgetary basis, adopted-biennial-budget book).",
+    "type": "service"
+  },
+  {
+    "canonicalName": "FY2025 Adopted Budget: All Funds Expenditure",
+    "id": "ent-budget-fy2025-all-funds-expenditure",
+    "plainDescription": "Adopted FY2025 expenditure across all Berkeley funds (budgetary basis, adopted-biennial-budget book).",
+    "type": "service"
+  },
+  {
+    "canonicalName": "FY2025 Adopted Budget: General Fund Revenue",
+    "id": "ent-budget-fy2025-general-fund-revenue",
+    "plainDescription": "Adopted FY2025 General Fund revenue for the City of Berkeley (budgetary basis).",
+    "type": "service"
+  },
+  {
+    "canonicalName": "FY2025 Adopted Budget: General Fund Expenditure",
+    "id": "ent-budget-fy2025-general-fund-expenditure",
+    "plainDescription": "Adopted FY2025 General Fund expenditure for the City of Berkeley (budgetary basis).",
+    "type": "service"
+  },
+  {
+    "canonicalName": "Auditor",
+    "id": "ent-socrata-dept-auditor",
+    "plainDescription": "City of Berkeley Auditor department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Berkeley Housing Authority",
+    "id": "ent-socrata-dept-berkeley-housing-authority",
+    "plainDescription": "City of Berkeley Berkeley Housing Authority department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Branch Libraries",
+    "id": "ent-socrata-dept-branch-libraries",
+    "plainDescription": "City of Berkeley Branch Libraries department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Central Library",
+    "id": "ent-socrata-dept-central-library",
+    "plainDescription": "City of Berkeley Central Library department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "City Attorney",
+    "id": "ent-socrata-dept-city-attorney",
+    "plainDescription": "City of Berkeley City Attorney department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "City Clerk",
+    "id": "ent-socrata-dept-city-clerk",
+    "plainDescription": "City of Berkeley City Clerk department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "City Manager",
+    "id": "ent-socrata-dept-city-manager",
+    "plainDescription": "City of Berkeley City Manager department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Council",
+    "id": "ent-socrata-dept-council",
+    "plainDescription": "City of Berkeley Council department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Economic Development",
+    "id": "ent-socrata-dept-economic-development",
+    "plainDescription": "City of Berkeley Economic Development department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Elections",
+    "id": "ent-socrata-dept-elections",
+    "plainDescription": "City of Berkeley Elections department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Environmental Health",
+    "id": "ent-socrata-dept-environmental-health",
+    "plainDescription": "City of Berkeley Environmental Health department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Finance",
+    "id": "ent-socrata-dept-finance",
+    "plainDescription": "City of Berkeley Finance department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Fire",
+    "id": "ent-socrata-dept-fire",
+    "plainDescription": "City of Berkeley Fire department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Health Services",
+    "id": "ent-socrata-dept-health-services",
+    "plainDescription": "City of Berkeley Health Services department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "HHS",
+    "id": "ent-socrata-dept-hhs",
+    "plainDescription": "City of Berkeley HHS department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Housing & Community Services",
+    "id": "ent-socrata-dept-housing-community-services",
+    "plainDescription": "City of Berkeley Housing & Community Services department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Human Resources",
+    "id": "ent-socrata-dept-human-resources",
+    "plainDescription": "City of Berkeley Human Resources department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Information Technology",
+    "id": "ent-socrata-dept-information-technology",
+    "plainDescription": "City of Berkeley Information Technology department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Library Administration",
+    "id": "ent-socrata-dept-library-administration",
+    "plainDescription": "City of Berkeley Library Administration department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Marina",
+    "id": "ent-socrata-dept-marina",
+    "plainDescription": "City of Berkeley Marina department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Mayor",
+    "id": "ent-socrata-dept-mayor",
+    "plainDescription": "City of Berkeley Mayor department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Mental Health",
+    "id": "ent-socrata-dept-mental-health",
+    "plainDescription": "City of Berkeley Mental Health department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Non-Departmental: Benefits and Pensions",
+    "id": "ent-socrata-dept-non-departmental-benefits-and-pensions",
+    "plainDescription": "City of Berkeley Non-Departmental: Benefits and Pensions department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Non-Departmental: Debt Service/Transfers",
+    "id": "ent-socrata-dept-non-departmental-debt-service-transfers",
+    "plainDescription": "City of Berkeley Non-Departmental: Debt Service/Transfers department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Non-Departmental: Misc & Fixed Expenses",
+    "id": "ent-socrata-dept-non-departmental-misc-fixed-expenses",
+    "plainDescription": "City of Berkeley Non-Departmental: Misc & Fixed Expenses department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Parks",
+    "id": "ent-socrata-dept-parks",
+    "plainDescription": "City of Berkeley Parks department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Planning & Development",
+    "id": "ent-socrata-dept-planning-development",
+    "plainDescription": "City of Berkeley Planning & Development department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Police",
+    "id": "ent-socrata-dept-police",
+    "plainDescription": "City of Berkeley Police department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Police Review Commission",
+    "id": "ent-socrata-dept-police-review-commission",
+    "plainDescription": "City of Berkeley Police Review Commission department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Public Health",
+    "id": "ent-socrata-dept-public-health",
+    "plainDescription": "City of Berkeley Public Health department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Public Works",
+    "id": "ent-socrata-dept-public-works",
+    "plainDescription": "City of Berkeley Public Works department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Rent Board",
+    "id": "ent-socrata-dept-rent-board",
+    "plainDescription": "City of Berkeley Rent Board department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  },
+  {
+    "canonicalName": "Technical Services",
+    "id": "ent-socrata-dept-technical-services",
+    "plainDescription": "City of Berkeley Technical Services department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",
+    "type": "department"
+  }
+]

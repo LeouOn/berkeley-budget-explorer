@@ -1,0 +1,98 @@
+{
+  "releaseId": "rel-2026-07-20-001",
+  "generatedAt": "2026-07-20T00:00:00Z",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "id": "src-bls-cpi-u-cuura422sa0",
+      "title": "BLS CPI-U, San Francisco-Oakland-Hayward, All Items (CUURA422SA0)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUURA422SA0",
+      "identityField": "Results.seriesID",
+      "expectedIdentity": "CUURA422SA0",
+      "retrievedAt": "2026-07-20",
+      "checksumSha256": "9a94de03fe78e611dc32337e7699bfddd52b78f4fdeb9c5fed43d5ae075d3a1f",
+      "parserVersion": "1.0.0",
+      "fiscalPeriods": [{ "start": 2002, "end": 2026 }],
+      "notes": "Bimonthly SF-Oakland-Hayward CPI-U. Annualized via mean of six scheduled bimonthly observations per Berkeley fiscal year (Jul-Jun)."
+    },
+    {
+      "id": "src-berkeley-socrata-gy8t-iqc4",
+      "title": "City of Berkeley Operating Budget (gy8t-iqc4)",
+      "publisher": "City of Berkeley",
+      "url": "https://data.cityofberkeley.info/resource/gy8t-iqc4.json",
+      "identityField": "dataset_id",
+      "expectedIdentity": "gy8t-iqc4",
+      "retrievedAt": "2026-07-20",
+      "checksumSha256": "22b8b005af4da33c5bdc9e4dde9e5929c4daa5a32e73f5736415d13977dc6825",
+      "parserVersion": "1.0.0",
+      "fiscalPeriods": [{ "start": 2012, "end": 2015 }],
+      "notes": "Adopted budget line items FY2012-FY2015. Sealed cohort; never stitched to SCO actuals."
+    },
+    {
+      "id": "src-sco-expenditures-ju3w-4gxp",
+      "title": "California State Controller City Expenditures Detail (ju3w-4gxp)",
+      "publisher": "California State Controller",
+      "url": "https://bythenumbers.sco.ca.gov/resource/ju3w-4gxp.json",
+      "identityField": "dataset_id",
+      "expectedIdentity": "ju3w-4gxp",
+      "retrievedAt": "2026-07-20",
+      "checksumSha256": "76611c4b90686f6a212dc00950da227b014fedaf929943c84d70fc45a1e819eb",
+      "parserVersion": "1.0.0",
+      "fiscalPeriods": [{ "start": 2003, "end": 2024 }],
+      "notes": "Detailed expenditures by category. Used for category context and schema-break disclosure only; never summed into citywide totals."
+    },
+    {
+      "id": "src-sco-expenditures-per-capita-ykhf-vfsr",
+      "title": "California State Controller City Expenditures Per Capita (ykhf-vfsr)",
+      "publisher": "California State Controller",
+      "url": "https://bythenumbers.sco.ca.gov/resource/ykhf-vfsr.json",
+      "identityField": "dataset_id",
+      "expectedIdentity": "ykhf-vfsr",
+      "retrievedAt": "2026-07-20",
+      "checksumSha256": "7f73ed01cbd90ce53ef1d43f6202d2c2572a08287e7c06b16db87d4cc22f7f70",
+      "parserVersion": "1.0.0",
+      "fiscalPeriods": [{ "start": 2003, "end": 2024 }],
+      "notes": "Authoritative citywide expenditure totals and per-resident measures FY2003-FY2024."
+    },
+    {
+      "id": "src-sco-revenues-per-capita-ky7j-fsk5",
+      "title": "California State Controller City Revenues Per Capita (ky7j-fsk5)",
+      "publisher": "California State Controller",
+      "url": "https://bythenumbers.sco.ca.gov/resource/ky7j-fsk5.json",
+      "identityField": "dataset_id",
+      "expectedIdentity": "ky7j-fsk5",
+      "retrievedAt": "2026-07-20",
+      "checksumSha256": "a8576f8ba43bd93364a6506042f6e3289abbd1c0d689e46020eb33b89525a40c",
+      "parserVersion": "1.0.0",
+      "fiscalPeriods": [{ "start": 2003, "end": 2024 }],
+      "notes": "Authoritative citywide revenue totals and per-resident measures FY2003-FY2024."
+    },
+    {
+      "id": "src-acfr-fy2025",
+      "title": "Berkeley ACFR FY2025 Governmental Funds Statement",
+      "publisher": "City of Berkeley Office of the City Auditor",
+      "url": "https://berkeleyca.gov/sites/default/files/2026-01/annual-comprehensive-financial-report-fy2025.pdf",
+      "identityField": "entity",
+      "expectedIdentity": "City of Berkeley",
+      "retrievedAt": "2026-07-20",
+      "checksumSha256": "1dc200e4196b88c1619ae37686e1977a4cb33c90c24087dda4749220dcc9cec5",
+      "parserVersion": "1.0.0",
+      "fiscalPeriods": [{ "start": 2025, "end": 2025 }],
+      "notes": "Audited governmental funds actuals for FY2025. Extracted from PDF page 77 (Statement of Revenues, Expenditures, and Changes in Fund Balances). Basis: modified-accrual. Scope: governmental funds only (excludes enterprise funds)."
+    },
+    {
+      "id": "src-budget-fy2025",
+      "title": "City of Berkeley FY2025 Adopted Budget",
+      "publisher": "City of Berkeley Office of Budget & Fiscal Management",
+      "url": "https://berkeleyca.gov/sites/default/files/documents/FY-2025-2026-Proposed-Biennial-Budget.pdf",
+      "identityField": "entity",
+      "expectedIdentity": "City of Berkeley",
+      "retrievedAt": "2026-07-26",
+      "checksumSha256": "1a623a38efa32df187e3e921cbdc85a0b40d92414f2aeb13df261f6156befaa8",
+      "parserVersion": "1.0.0",
+      "fiscalPeriods": [{ "start": 2025, "end": 2025 }],
+      "notes": "Adopted budget totals for FY2025. Extracted from PDF pages 10, 39, 41, 44. Basis: budgetary. Scope: all funds."
+    }
+  ]
+}

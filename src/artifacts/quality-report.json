@@ -1,0 +1,44 @@
+{
+  "comparabilityNotes": [
+    "Socrata cohort stops at FY2015; do not stitch into State Controller series.",
+    "SCO detailed expenditure schema changes materially in FY2017; citywide totals remain comparable.",
+    "Phase 1 surface is SCO standardized actuals for Berkeley; adopted-versus-actual variance is deferred to Phase 3.",
+    "ACFR FY2025 governmental funds actuals are modified-accrual; they are a subset of citywide totals and are not comparable on a like-for-like basis with enterprise funds.",
+    "Socrata department-level values are adopted budgets (budgetary basis, FY2012-FY2015) aggregated from line items; they are not comparable like-for-like with SCO per-capita actuals (GAAP basis)."
+  ],
+  "generatedAt": "2026-07-26T18:53:14.321Z",
+  "normalizationCounts": {
+    "actual": 50,
+    "adopted": 47555,
+    "projected": 0,
+    "proposed": 0,
+    "revised": 0
+  },
+  "reconciliation": [
+    {
+      "sourceId": "src-sco-expenditures-per-capita-ykhf-vfsr",
+      "status": "passed"
+    },
+    {
+      "sourceId": "src-bls-cpi-u-cuura422sa0",
+      "status": "passed"
+    },
+    {
+      "sourceId": "src-berkeley-socrata-gy8t-iqc4",
+      "status": "passed"
+    }
+  ],
+  "releaseId": "rel-2026-07-20-001",
+  "schemaVersion": "1.0.0",
+  "sourceCount": 7,
+  "sourceIds": [
+    "src-bls-cpi-u-cuura422sa0",
+    "src-berkeley-socrata-gy8t-iqc4",
+    "src-sco-expenditures-ju3w-4gxp",
+    "src-sco-expenditures-per-capita-ykhf-vfsr",
+    "src-sco-revenues-per-capita-ky7j-fsk5",
+    "src-acfr-fy2025",
+    "src-budget-fy2025"
+  ],
+  "status": "passed"
+}

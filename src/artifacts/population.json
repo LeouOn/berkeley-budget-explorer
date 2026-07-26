@@ -1,0 +1,97 @@
+{
+  "observations": [
+    {
+      "estimatedPopulation": 104558,
+      "fiscalYear": 2003
+    },
+    {
+      "estimatedPopulation": 104279,
+      "fiscalYear": 2004
+    },
+    {
+      "estimatedPopulation": 104534,
+      "fiscalYear": 2005
+    },
+    {
+      "estimatedPopulation": 105385,
+      "fiscalYear": 2006
+    },
+    {
+      "estimatedPopulation": 106347,
+      "fiscalYear": 2007
+    },
+    {
+      "estimatedPopulation": 106697,
+      "fiscalYear": 2008
+    },
+    {
+      "estimatedPopulation": 107178,
+      "fiscalYear": 2009
+    },
+    {
+      "estimatedPopulation": 108119,
+      "fiscalYear": 2010
+    },
+    {
+      "estimatedPopulation": 114046,
+      "fiscalYear": 2011
+    },
+    {
+      "estimatedPopulation": 114821,
+      "fiscalYear": 2012
+    },
+    {
+      "estimatedPopulation": 115716,
+      "fiscalYear": 2013
+    },
+    {
+      "estimatedPopulation": 117372,
+      "fiscalYear": 2014
+    },
+    {
+      "estimatedPopulation": 118780,
+      "fiscalYear": 2015
+    },
+    {
+      "estimatedPopulation": 119915,
+      "fiscalYear": 2016
+    },
+    {
+      "estimatedPopulation": 121238,
+      "fiscalYear": 2017
+    },
+    {
+      "estimatedPopulation": 121874,
+      "fiscalYear": 2018
+    },
+    {
+      "estimatedPopulation": 123328,
+      "fiscalYear": 2019
+    },
+    {
+      "estimatedPopulation": 122580,
+      "fiscalYear": 2020
+    },
+    {
+      "estimatedPopulation": 121269,
+      "fiscalYear": 2021
+    },
+    {
+      "estimatedPopulation": 124563,
+      "fiscalYear": 2022
+    },
+    {
+      "estimatedPopulation": 123562,
+      "fiscalYear": 2023
+    },
+    {
+      "estimatedPopulation": 125327,
+      "fiscalYear": 2024
+    },
+    {
+      "estimatedPopulation": 124321,
+      "fiscalYear": 2025
+    }
+  ],
+  "schemaVersion": "1.0.0"
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.0.0",
+  "entries": [
+    {
+      "sourceEntityKey": "socrata:department:Public Works",
+      "canonicalEntityId": "ent-department-public-works",
+      "effectiveStart": 2012,
+      "effectiveEnd": 2015,
+      "rationale": "Cohort present in Socrata gy8t-iqc4 FY2012-FY2015.",
+      "cardinality": "one-to-one",
+      "comparability": "exact",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "socrata:program:Streets and Sidewalks",
+      "canonicalEntityId": "ent-service-streets",
+      "effectiveStart": 2012,
+      "effectiveEnd": 2015,
+      "rationale": "Streets and Sidewalks program appears under Public Works for the sealed cohort.",
+      "cardinality": "one-to-one",
+      "comparability": "exact",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "sco-per-capita-expenditures:citywide:Berkeley",
+      "canonicalEntityId": "ent-citywide-berkeley",
+      "effectiveStart": 2003,
+      "effectiveEnd": 2024,
+      "rationale": "State Controller citywide totals apply across the verified window.",
+      "cardinality": "one-to-one",
+      "comparability": "reconstructed",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "acfr:entity:ent-acfr-gov-funds-total-revenue",
+      "canonicalEntityId": "ent-citywide-berkeley",
+      "effectiveStart": 2025,
+      "effectiveEnd": 2025,
+      "rationale": "ACFR governmental funds revenue is a subset of citywide total.",
+      "cardinality": "partial",
+      "comparability": "approximate",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "acfr:entity:ent-acfr-gov-funds-total-expenditure",
+      "canonicalEntityId": "ent-citywide-berkeley",
+      "effectiveStart": 2025,
+      "effectiveEnd": 2025,
+      "rationale": "ACFR governmental funds expenditure is a subset of citywide total.",
+      "cardinality": "partial",
+      "comparability": "approximate",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "acfr:entity:ent-acfr-general-fund-revenue",
+      "canonicalEntityId": "ent-citywide-berkeley",
+      "effectiveStart": 2025,
+      "effectiveEnd": 2025,
+      "rationale": "General Fund is a subset of total, not comparable on a like-for-like basis.",
+      "cardinality": "partial",
+      "comparability": "incompatible",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "sco-detailed:category:Public Safety",
+      "canonicalEntityId": "ent-sco-cat-general-government-and-public-safety",
+      "effectiveStart": 2003,
+      "effectiveEnd": 2016,
+      "rationale": "Post-2017 merger of Public Safety + General Government.",
+      "cardinality": "many-to-one",
+      "comparability": "approximate",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "sco-detailed:category:General Government",
+      "canonicalEntityId": "ent-sco-cat-general-government-and-public-safety",
+      "effectiveStart": 2003,
+      "effectiveEnd": 2016,
+      "rationale": "Post-2017 merger of Public Safety + General Government.",
+      "cardinality": "many-to-one",
+      "comparability": "approximate",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "sco-detailed:category:Community Development",
+      "canonicalEntityId": "ent-sco-cat-transportation-and-community-development",
+      "effectiveStart": 2003,
+      "effectiveEnd": 2016,
+      "rationale": "Post-2017 merger of Transportation + Community Development.",
+      "cardinality": "many-to-one",
+      "comparability": "approximate",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "sco-detailed:category:Transportation",
+      "canonicalEntityId": "ent-sco-cat-transportation-and-community-development",
+      "effectiveStart": 2003,
+      "effectiveEnd": 2016,
+      "rationale": "Post-2017 merger of Transportation + Community Development.",
+      "cardinality": "many-to-one",
+      "comparability": "approximate",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "sco-detailed:category:Health",
+      "canonicalEntityId": "ent-sco-cat-health-and-culture-and-leisure",
+      "effectiveStart": 2003,
+      "effectiveEnd": 2016,
+      "rationale": "Post-2017 merger of Health + Culture and Leisure.",
+      "cardinality": "many-to-one",
+      "comparability": "approximate",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "sco-detailed:category:Culture and Leisure",
+      "canonicalEntityId": "ent-sco-cat-health-and-culture-and-leisure",
+      "effectiveStart": 2003,
+      "effectiveEnd": 2016,
+      "rationale": "Post-2017 merger of Health + Culture and Leisure.",
+      "cardinality": "many-to-one",
+      "comparability": "approximate",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "sco-detailed:category:Public Utilities",
+      "canonicalEntityId": "ent-sco-cat-public-utilities-and-other-expenditures",
+      "effectiveStart": 2003,
+      "effectiveEnd": 2016,
+      "rationale": "Post-2017 merger of Public Utilities + Other Expenditures.",
+      "cardinality": "many-to-one",
+      "comparability": "approximate",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    },
+    {
+      "sourceEntityKey": "sco-detailed:category:Other Expenditures",
+      "canonicalEntityId": "ent-sco-cat-public-utilities-and-other-expenditures",
+      "effectiveStart": 2003,
+      "effectiveEnd": 2016,
+      "rationale": "Post-2017 merger of Public Utilities + Other Expenditures.",
+      "cardinality": "many-to-one",
+      "comparability": "approximate",
+      "reviewer": "pipeline-bot",
+      "reviewedAt": "2026-07-20"
+    }
+  ]
+}

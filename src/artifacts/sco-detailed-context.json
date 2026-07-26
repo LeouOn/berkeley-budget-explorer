@@ -1,0 +1,407 @@
+{
+  "sampleBerkeley": [
+    {
+      "category": "Water Enterprise Fund",
+      "fiscalYear": 2017,
+      "lineDescription": "Water Supply_Water Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Water Supply Expenses",
+      "valueCents": 0
+    },
+    {
+      "category": "Conduit Financing",
+      "fiscalYear": 2017,
+      "lineDescription": "Materials and Supplies_Conduit Financing",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Conduit Financing",
+      "fiscalYear": 2017,
+      "lineDescription": "Contractual Services_Conduit Financing",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Conduit Financing",
+      "fiscalYear": 2017,
+      "lineDescription": "Other Agent Fees_Conduit Financing",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Internal Service Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Personnel Services",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Personnel Services",
+      "valueCents": 1078463500
+    },
+    {
+      "category": "Internal Service Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Contractual Services",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Contractual Services",
+      "valueCents": 1211653600
+    },
+    {
+      "category": "Internal Service Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Materials and Supplies",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Materials and Supplies",
+      "valueCents": 369387600
+    },
+    {
+      "category": "Internal Service Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "General and Administrative Expenses",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "General and Administrative Expenses",
+      "valueCents": 16508400
+    },
+    {
+      "category": "Internal Service Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Depreciation and Amortization Expenses",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Depreciation and Amortization Expenses",
+      "valueCents": 317576600
+    },
+    {
+      "category": "Internal Service Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Other Operating Expenses",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Other Operating Expenses",
+      "valueCents": 0
+    },
+    {
+      "category": "Internal Service Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Interest Expense",
+      "subcategory1": "Nonoperating Expenses",
+      "subcategory2": "Interest Expense",
+      "valueCents": 18916200
+    },
+    {
+      "category": "Internal Service Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Loss on Disposal of Capital Assets",
+      "subcategory1": "Nonoperating Expenses",
+      "subcategory2": "Loss on Disposal of Capital Assets",
+      "valueCents": 0
+    },
+    {
+      "category": "Internal Service Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Other Nonoperating Expenses",
+      "subcategory1": "Nonoperating Expenses",
+      "subcategory2": "Other Nonoperating Expenses",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Landing Areas_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Maintenance and Operation",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Aircraft Parking_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Maintenance and Operation",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Hangars_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Maintenance and Operation",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Terminal Buildings and Areas_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Maintenance and Operation",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Other Buildings and Areas_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Maintenance and Operation",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "General Shops and Equipment_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Maintenance and Operation",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Personnel Services_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Personnel Services_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Contractual Services_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Contractual Services_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Materials and Supplies_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Materials and Supplies_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "General and Administrative Expenses_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "General and Administrative Expenses_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Cost of Sales and Services_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Cost of Sales and Services_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Depreciation and Amortization Expenses_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Depreciation and Amortization Expenses_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Other Operating Expenses_Airport Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Other Operating Expenses_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Interest Expense_Airport Enterprise Fund",
+      "subcategory1": "Nonoperating Expenses",
+      "subcategory2": "Interest Expense_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Taxes and Assessments_Airport Enterprise Fund",
+      "subcategory1": "Nonoperating Expenses",
+      "subcategory2": "Taxes and Assessments_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Judgments and Damages_Airport Enterprise Fund",
+      "subcategory1": "Nonoperating Expenses",
+      "subcategory2": "Judgments and Damages_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Loss on Disposal of Capital Assets_Airport Enterprise Fund",
+      "subcategory1": "Nonoperating Expenses",
+      "subcategory2": "Loss on Disposal of Capital Assets_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Airport Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Other Nonoperating Expenses_Airport Enterprise Fund",
+      "subcategory1": "Nonoperating Expenses",
+      "subcategory2": "Other Nonoperating Expenses_Airport Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Electricity Generation_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Electricity Production Expenses",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Electricity Purchases_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Electricity Production Expenses",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Other Electricity Production Expenses_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Electricity Production Expenses",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Transmission and Distribution_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Transmission and Distribution_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Customer Accounting and Collection_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Customer Accounting and Collection_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Sales Promotion_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Sales Promotion_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Personnel Services_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Personnel Services_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Contractual Services_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Contractual Services_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Materials and Supplies_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Materials and Supplies_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "General and Administrative Expenses_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "General and Administrative Expenses_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Depreciation and Amortization Expenses_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Depreciation and Amortization Expenses_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Other Operating Expenses_Electric Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Other Operating Expenses_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Interest Expense_Electric Enterprise Fund",
+      "subcategory1": "Nonoperating Expense",
+      "subcategory2": "Interest Expense_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Loss on Disposal of Capital Assets_Electric Enterprise Fund",
+      "subcategory1": "Nonoperating Expense",
+      "subcategory2": "Loss on Disposal of Capital Assets_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Electric Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Other Nonoperating Expenses_Electric Enterprise Fund",
+      "subcategory1": "Nonoperating Expense",
+      "subcategory2": "Other Nonoperating Expenses_Electric Enterprise Fund",
+      "valueCents": 0
+    },
+    {
+      "category": "Gas  Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Gas Manufactured_Gas Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Gas Production Expenses",
+      "valueCents": 0
+    },
+    {
+      "category": "Gas  Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Gas Purchases_Gas Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Gas Production Expenses",
+      "valueCents": 0
+    },
+    {
+      "category": "Gas  Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Other Gas Production Expenses_Gas Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Gas Production Expenses",
+      "valueCents": 0
+    },
+    {
+      "category": "Gas  Enterprise Fund",
+      "fiscalYear": 2018,
+      "lineDescription": "Transmission and Distribution_Gas Enterprise Fund",
+      "subcategory1": "Operating Expenses",
+      "subcategory2": "Transmission and Distribution_Gas Enterprise Fund",
+      "valueCents": 0
+    }
+  ],
+  "schemaBreak": "SCO detailed expenditure schema changes materially in FY2017; citywide totals remain comparable across the break but per-line trends do not.",
+  "schemaVersion": "1.0.0",
+  "surface": "category-context-only"
+}

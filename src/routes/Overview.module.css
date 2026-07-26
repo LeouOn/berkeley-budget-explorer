@@ -1,0 +1,103 @@
+.section {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.navLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  align-items: center;
+  padding: var(--space-3) 0;
+}
+
+.compareCta {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-ink);
+  color: var(--color-canvas);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: opacity var(--duration-fast) var(--ease-standard);
+}
+
+.compareCta:hover {
+  opacity: 0.85;
+}
+
+.compareDeptLink {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-rule);
+  color: var(--color-ink);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: opacity var(--duration-fast) var(--ease-standard);
+}
+
+.compareDeptLink:hover {
+  opacity: 0.75;
+}
+
+.toggleRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.toggleMeta {
+  color: var(--color-ink-muted);
+  font-size: 0.9375rem;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-4);
+}
+
+.citationList {
+  display: grid;
+  gap: var(--space-3);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.citationItem {
+  display: grid;
+  gap: var(--space-1);
+  padding-block: var(--space-2);
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.citationItem:last-child {
+  border-bottom: none;
+}
+
+.citationId {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--color-ink-muted);
+}
+
+.warn {
+  padding: var(--space-4);
+  background: var(--color-warn-bg);
+  color: var(--color-warn-ink);
+  border-left: 4px solid var(--color-warn-ink);
+  border-radius: var(--radius-sm);
+  font-size: 0.9375rem;
+}
+
+@media (max-width: 480px) {
+  .toggleRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

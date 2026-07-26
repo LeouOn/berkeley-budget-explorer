@@ -1,0 +1,48 @@
+{
+  "name": "berkeley-budget",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "pnpm run build:artifacts && vite build",
+    "build:artifacts": "tsx src/pipeline/build.ts",
+    "refresh:data": "tsx src/pipeline/acquire.ts",
+    "preview": "vite preview --port 4173 --strictPort",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "typecheck": "tsc -b --noEmit",
+    "lint": "biome check .",
+    "format": "biome format --write ."
+  },
+  "dependencies": {
+    "@observablehq/plot": "0.6.16",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "zod": "4.0.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.0",
+    "@biomejs/biome": "1.9.4",
+    "@playwright/test": "1.50.0",
+    "@testing-library/jest-dom": "6.6.3",
+    "@testing-library/react": "16.1.0",
+    "@testing-library/user-event": "14.5.2",
+    "@types/node": "22.12.0",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "@vitejs/plugin-react": "6.0.4",
+    "happy-dom": "15.11.7",
+    "pdfjs-dist": "^6.1.200",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2",
+    "vite": "8.0.0",
+    "vitest": "4.1.10"
+  }
+}
