@@ -38,6 +38,7 @@ export interface CompareInput {
   readonly unit: CompareUnit;
   readonly baseYear: number;
   readonly originalLabels?: boolean;
+  readonly stageFilter?: string | null;
 }
 
 export const COMPARE_PALETTE: readonly string[] = [
@@ -195,8 +196,12 @@ function buildSeriesForEntity(
 }
 
 export function compareSeries(input: CompareInput): CompareResult {
+  const filteredValues =
+    input.stageFilter != null
+      ? input.values.filter((v) => v.stage === input.stageFilter)
+      : input.values;
   const limitedIds = input.entityIds.slice(0, MAX_COMPARE_ENTITIES);
-  const shareDenominators = computeShareDenominators(input.values, input.yearRange);
+  const shareDenominators = computeShareDenominators(filteredValues, input.yearRange);
   const [start, end] = input.yearRange;
   const fiscalYears: number[] = [];
   for (let fy = start; fy <= end; fy += 1) fiscalYears.push(fy);
@@ -205,9 +210,10 @@ export function compareSeries(input: CompareInput): CompareResult {
   for (let i = 0; i < limitedIds.length; i += 1) {
     const entityId = limitedIds[i];
     if (!entityId) continue;
-    const coverage = computeCoverage(input.values, entityId);
+    const coverage = computeCoverage(filteredValues, entityId);
     if (!coverage) continue;
-    const s = buildSeriesForEntity(entityId, input, coverage, shareDenominators, i);
+    const seriesInput: CompareInput = { ...input, values: filteredValues };
+    const s = buildSeriesForEntity(entityId, seriesInput, coverage, shareDenominators, i);
     if (s) series.push(s);
   }
 

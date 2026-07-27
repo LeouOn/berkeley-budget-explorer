@@ -90,6 +90,39 @@
   cursor: pointer;
 }
 
+.yearRange {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.yearRangeLabel {
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-ink-muted);
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.yearInput {
+  width: 5ch;
+  padding: var(--space-1) var(--space-2);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-size: 0.8125rem;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.yearInput:focus {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 1px;
+}
+
 .exportBtn {
   justify-self: start;
   padding: var(--space-2) var(--space-4);
@@ -162,6 +195,27 @@
   font-size: 0.8125rem;
   color: var(--color-ink-muted);
   margin: var(--space-1) 0 var(--space-2);
+}
+
+.pickerSearch {
+  display: block;
+  width: 100%;
+  padding: var(--space-1) var(--space-2);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-size: 0.8125rem;
+  margin-bottom: var(--space-2);
+}
+
+.pickerSearch:focus {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 1px;
+}
+
+.pickerSearch::placeholder {
+  color: var(--color-ink-muted);
 }
 
 .pickerGroups {

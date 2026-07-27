@@ -26,6 +26,7 @@ import {
   buildTableRows,
   isPercentageUnit,
   modeOptions,
+  stageOptions,
   unitOptions,
 } from "./compare-view";
 
@@ -99,6 +100,7 @@ export function Compare(): React.JSX.Element {
     unit: state.unit,
     baseYear: state.baseYear,
     originalLabels: state.originalLabels,
+    stageFilter: state.stageFilter,
   });
   const isPercentage = isPercentageUnit(state.unit);
   const columns = buildTableColumns(result.series, isPercentage);
@@ -198,6 +200,42 @@ export function Compare(): React.JSX.Element {
               value={state.unit}
               onChange={(next) => update({ unit: next })}
             />
+            <Toggle
+              legend="Stage"
+              options={stageOptions}
+              value={state.stageFilter ?? ""}
+              onChange={(next) => update({ stageFilter: next === "" ? null : next })}
+            />
+            <div className={styles.yearRange}>
+              <label className={styles.yearRangeLabel}>
+                From
+                <input
+                  type="number"
+                  className={styles.yearInput}
+                  min={1990}
+                  max={2100}
+                  value={state.startYear}
+                  onChange={(e) => {
+                    const v = Number.parseInt(e.currentTarget.value, 10);
+                    if (Number.isFinite(v)) update({ startYear: v });
+                  }}
+                />
+              </label>
+              <label className={styles.yearRangeLabel}>
+                to
+                <input
+                  type="number"
+                  className={styles.yearInput}
+                  min={1990}
+                  max={2100}
+                  value={state.endYear}
+                  onChange={(e) => {
+                    const v = Number.parseInt(e.currentTarget.value, 10);
+                    if (Number.isFinite(v)) update({ endYear: v });
+                  }}
+                />
+              </label>
+            </div>
             <label className={styles.originalLabelsToggle}>
               <input
                 type="checkbox"

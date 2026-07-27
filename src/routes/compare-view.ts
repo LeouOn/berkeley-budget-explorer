@@ -19,6 +19,12 @@ export const PERCENTAGE_UNITS: ReadonlySet<CompareUnit> = new Set([
   "share-of-total",
 ]);
 
+export const stageOptions: readonly ToggleOption<string>[] = [
+  { value: "", label: "All" },
+  { value: "adopted", label: "Adopted" },
+  { value: "actual", label: "Actual" },
+];
+
 export interface CompareTableRow {
   readonly fiscalYear: number;
   readonly cells: readonly (number | null)[];

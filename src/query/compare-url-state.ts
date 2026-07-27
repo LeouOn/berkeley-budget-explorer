@@ -11,6 +11,7 @@ export interface CompareUrlState {
   readonly unit: CompareUnit;
   readonly baseYear: number;
   readonly originalLabels: boolean;
+  readonly stageFilter: string | null;
 }
 
 const CompareModeSchema = z.enum(["real", "nominal"]);
@@ -27,6 +28,7 @@ export const DEFAULT_MODE: CompareMode = "real";
 export const DEFAULT_UNIT: CompareUnit = "absolute";
 export const DEFAULT_BASE_YEAR = 2024;
 export const DEFAULT_ORIGINAL_LABELS = false;
+export const DEFAULT_STAGE_FILTER: string | null = null;
 
 export function parseCompareUrl(search: string): CompareUrlState {
   const params = new URLSearchParams(search.startsWith("?") ? search.slice(1) : search);
@@ -88,7 +90,13 @@ export function parseCompareUrl(search: string): CompareUrlState {
   const originalLabels =
     typeof originalLabelsRaw === "string" ? originalLabelsRaw === "1" : DEFAULT_ORIGINAL_LABELS;
 
-  return { entityIds, startYear, endYear, mode, unit, baseYear, originalLabels };
+  const stageRaw = params.get("stage");
+  let stageFilter: string | null = DEFAULT_STAGE_FILTER;
+  if (typeof stageRaw === "string" && stageRaw.length > 0) {
+    stageFilter = stageRaw;
+  }
+
+  return { entityIds, startYear, endYear, mode, unit, baseYear, originalLabels, stageFilter };
 }
 
 export function serializeCompareUrl(state: CompareUrlState): string {
@@ -104,6 +112,9 @@ export function serializeCompareUrl(state: CompareUrlState): string {
   params.set("baseYear", String(state.baseYear));
   if (state.originalLabels) {
     params.set("originalLabels", "1");
+  }
+  if (state.stageFilter !== null) {
+    params.set("stage", state.stageFilter);
   }
   return `?${params.toString()}`;
 }

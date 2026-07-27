@@ -1,4 +1,4 @@
-import { useId } from "react";
+import { useId, useState } from "react";
 import type { CatalogGroup } from "../content/entity-catalog";
 import { MAX_COMPARE_ENTITIES } from "../query/compare-url-state";
 import styles from "./Compare.module.css";
@@ -16,14 +16,34 @@ export function EntityPicker({
 }: EntityPickerProps): React.JSX.Element {
   const fieldsetId = useId();
   const atCapacity = selectedIds.length >= MAX_COMPARE_ENTITIES;
+  const [search, setSearch] = useState("");
+
+  const query = search.trim().toLowerCase();
+  const filtered = groups
+    .map((group) => {
+      const entries = query
+        ? group.entries.filter((e) => e.name.toLowerCase().includes(query))
+        : group.entries;
+      return { ...group, entries };
+    })
+    .filter((group) => group.entries.length > 0);
+
   return (
     <fieldset className={styles.pickerFieldset}>
       <legend className={styles.pickerLegend}>Available entities</legend>
       <p className={styles.pickerMeta}>
         {selectedIds.length} of {MAX_COMPARE_ENTITIES} selected.
       </p>
+      <input
+        type="search"
+        className={styles.pickerSearch}
+        placeholder="Filter entities…"
+        value={search}
+        onChange={(e) => setSearch(e.currentTarget.value)}
+        aria-label="Filter entities by name"
+      />
       <div className={styles.pickerGroups}>
-        {groups.map((group) => {
+        {filtered.map((group) => {
           const groupId = `${fieldsetId}-${group.label.replace(/\s+/g, "-")}`;
           return (
             <details key={group.label} className={styles.pickerGroup} open>

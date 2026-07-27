@@ -21,6 +21,7 @@ describe("compare url state", () => {
       unit: DEFAULT_UNIT,
       baseYear: DEFAULT_BASE_YEAR,
       originalLabels: DEFAULT_ORIGINAL_LABELS,
+      stageFilter: null,
     });
   });
 
@@ -79,6 +80,7 @@ describe("compare url state", () => {
       unit: "per-resident" as const,
       baseYear: 2020,
       originalLabels: false,
+      stageFilter: null as string | null,
     };
     const serialized = serializeCompareUrl(state);
     const parsed = parseCompareUrl(serialized);
@@ -94,6 +96,7 @@ describe("compare url state", () => {
       unit: "absolute",
       baseYear: 2024,
       originalLabels: false,
+      stageFilter: null,
     });
     expect(serialized).toContain("entities=ent-sco-cat-public-safety");
     expect(serialized).toContain("start=2019");
@@ -122,6 +125,7 @@ describe("compare url state", () => {
       unit: "absolute",
       baseYear: 2024,
       originalLabels: true,
+      stageFilter: null,
     });
     expect(withLabels).toContain("originalLabels=1");
     const withoutLabels = serializeCompareUrl({
@@ -132,6 +136,7 @@ describe("compare url state", () => {
       unit: "absolute",
       baseYear: 2024,
       originalLabels: false,
+      stageFilter: null,
     });
     expect(withoutLabels).not.toContain("originalLabels");
   });
@@ -145,6 +150,7 @@ describe("compare url state", () => {
       unit: "absolute" as const,
       baseYear: 2024,
       originalLabels: true,
+      stageFilter: null as string | null,
     };
     expect(parseCompareUrl(serializeCompareUrl(state))).toEqual(state);
   });
