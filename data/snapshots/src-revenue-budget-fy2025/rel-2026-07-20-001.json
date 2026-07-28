@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "reportType": "Adopted Budget Revenue Categories",
+  "entity": "City of Berkeley",
+  "fiscalYear": 2025,
+  "sourceDocument": "FY 2025-2026 Proposed Biennial Budget",
+  "sourceUrl": "https://berkeleyca.gov/sites/default/files/documents/FY-2025-2026-Proposed-Biennial-Budget.pdf",
+  "extractedPage": 41,
+  "revenueCategories": [
+    {
+      "name": "Secured Property Taxes",
+      "amountCents": 8988749600
+    },
+    {
+      "name": "Supplemental Taxes",
+      "amountCents": 340000000
+    },
+    {
+      "name": "Unsecured Property Taxes",
+      "amountCents": 464803800
+    },
+    {
+      "name": "Property Transfer Taxes",
+      "amountCents": 1900000000
+    },
+    {
+      "name": "Property Transfer Tax – Measure P",
+      "amountCents": 619958000
+    },
+    {
+      "name": "Sales Tax",
+      "amountCents": 1888423500
+    },
+    {
+      "name": "Soda Tax",
+      "amountCents": 114738700
+    },
+    {
+      "name": "Utility Users Taxes",
+      "amountCents": 1770000000
+    },
+    {
+      "name": "Transient Occupancy Taxes",
+      "amountCents": 768806500
+    },
+    {
+      "name": "Short-Term Rentals",
+      "amountCents": 140000000
+    },
+    {
+      "name": "Business License Taxes",
+      "amountCents": 2366400000
+    }
+  ]
+}

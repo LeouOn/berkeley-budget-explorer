@@ -4,6 +4,7 @@ import overviewData from "../artifacts/overview.json" with { type: "json" };
 import populationData from "../artifacts/population.json" with { type: "json" };
 import releaseData from "../artifacts/release.json" with { type: "json" };
 import valuesData from "../artifacts/values.json" with { type: "json" };
+import { ReportIssue } from "../components/ReportIssue";
 import { type ServiceEntry, getServiceByKey } from "../content/services";
 import {
   Card,
@@ -127,9 +128,12 @@ export function Service({ serviceKey }: ServiceRouteProps): React.JSX.Element {
         title="Service not found"
         intro={`No service matches the key "${serviceKey}".`}
         footer={
-          <small>
-            Release {release.releaseId} generated {release.generatedAt}.
-          </small>
+          <>
+            <small>
+              Release {release.releaseId} generated {release.generatedAt}.
+            </small>
+            <ReportIssue />
+          </>
         }
       >
         <p>
@@ -161,9 +165,12 @@ export function Service({ serviceKey }: ServiceRouteProps): React.JSX.Element {
       title={service.label}
       intro={service.plainDescription}
       footer={
-        <small>
-          Release {release.releaseId}. Citywide trend uses SCO standardized actuals FY2003-FY2024.
-        </small>
+        <>
+          <small>
+            Release {release.releaseId}. Citywide trend uses SCO standardized actuals FY2003-FY2024.
+          </small>
+          <ReportIssue />
+        </>
       }
     >
       <nav className={styles.navLinks} aria-label="Route navigation">

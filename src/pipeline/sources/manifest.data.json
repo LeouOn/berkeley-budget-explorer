@@ -93,6 +93,19 @@
       "parserVersion": "1.0.0",
       "fiscalPeriods": [{ "start": 2025, "end": 2025 }],
       "notes": "Adopted budget totals for FY2025. Extracted from PDF pages 10, 39, 41, 44. Basis: budgetary. Scope: all funds."
+    },
+    {
+      "id": "src-revenue-budget-fy2025",
+      "title": "City of Berkeley FY2025 Adopted Budget Revenue Categories",
+      "publisher": "City of Berkeley Office of Budget & Fiscal Management",
+      "url": "https://berkeleyca.gov/sites/default/files/documents/FY-2025-2026-Proposed-Biennial-Budget.pdf",
+      "identityField": "entity",
+      "expectedIdentity": "City of Berkeley",
+      "retrievedAt": "2026-07-27",
+      "checksumSha256": "9670ef1494c9fa7f311314806cfb3a8f60e16d2e5ffb7523c166bf483774c040",
+      "parserVersion": "1.0.0",
+      "fiscalPeriods": [{ "start": 2025, "end": 2025 }],
+      "notes": "Adopted FY2025 revenue sub-categories (secured property tax, sales tax, business license tax, etc.) transcribed from PDF page 41. Single-year snapshot; the budget book does not publish a historical series for these line items."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T03:00:19.714Z",
+  "generatedAt": "2026-07-28T05:29:50.547Z",
   "releaseId": "rel-2026-07-20-001",
   "schemaVersion": "1.0.0",
   "sources": [
@@ -9,7 +9,8 @@
     "src-sco-expenditures-per-capita-ykhf-vfsr",
     "src-sco-revenues-per-capita-ky7j-fsk5",
     "src-acfr-fy2025",
-    "src-budget-fy2025"
+    "src-budget-fy2025",
+    "src-revenue-budget-fy2025"
   ],
   "surface": "sco-standardized-actuals"
 }

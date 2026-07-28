@@ -82,7 +82,14 @@ describe("source manifest schemas", () => {
 
   it("the pinned manifest lists seven sources after the FY2025 adopted-budget addition", () => {
     const parsed = SourceManifestSchema.parse(manifestData);
-    expect(parsed.sources).toHaveLength(7);
+    expect(parsed.sources.length).toBeGreaterThanOrEqual(7);
+  });
+
+  it("the pinned manifest lists eight sources after the FY2025 revenue-category addition", () => {
+    const parsed = SourceManifestSchema.parse(manifestData);
+    expect(parsed.sources).toHaveLength(8);
+    const ids = parsed.sources.map((s) => s.id);
+    expect(ids).toContain("src-revenue-budget-fy2025");
   });
 
   it("each source entry has an API URL containing /resource/ or a .pdf document", () => {

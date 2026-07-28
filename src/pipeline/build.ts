@@ -13,6 +13,10 @@ import {
   normalizeSocrata,
 } from "./canonical/normalize";
 import { buildBudgetEntities, normalizeBudgetAdopted } from "./canonical/normalize-budget";
+import {
+  buildRevenueCategoryEntities,
+  normalizeRevenueBudget,
+} from "./canonical/normalize-revenue-budget";
 import type { BudgetValue, Entity } from "./canonical/schema";
 import { writeArtifact, writeArtifacts } from "./derive/artifacts";
 import { buildOverviewSnapshot } from "./derive/derive";
@@ -39,6 +43,10 @@ import { parseBudgetFy2025Snapshot, toBudgetAdoptedRecords } from "./sources/bud
 import { SourceManifestSchema } from "./sources/manifest";
 import manifestData from "./sources/manifest.data.json" with { type: "json" };
 import { POPULATION_SUPPLEMENTS } from "./sources/population-supplement";
+import {
+  parseRevenueBudgetFy2025Snapshot,
+  toRevenueBudgetRecords,
+} from "./sources/revenue-budget-transcription";
 import { parseScoDetailed, summarizeCategoriesByFiscalYear } from "./sources/sco-detailed";
 import {
   citywideTrend,
@@ -76,6 +84,7 @@ export async function buildArtifacts(): Promise<void> {
   const revPcEntry = requireEntry("src-sco-revenues-per-capita-ky7j-fsk5");
   const acfrEntry = requireEntry("src-acfr-fy2025");
   const budgetEntry = requireEntry("src-budget-fy2025");
+  const revenueBudgetEntry = requireEntry("src-revenue-budget-fy2025");
 
   const blsObservations = await loadBlsFromSnapshot(SNAPSHOT_ROOT, releaseId);
   const socrataRaw = loadVerifiedSource(SNAPSHOT_ROOT, socrataEntry, releaseId);
@@ -87,6 +96,9 @@ export async function buildArtifacts(): Promise<void> {
   );
   const budgetSnapshot = parseBudgetFy2025Snapshot(
     loadVerifiedSnapshot(SNAPSHOT_ROOT, budgetEntry, releaseId),
+  );
+  const revenueBudgetSnapshot = parseRevenueBudgetFy2025Snapshot(
+    loadVerifiedSnapshot(SNAPSHOT_ROOT, revenueBudgetEntry, releaseId),
   );
 
   const socrataRows = parseSocrataRows(socrataRaw);
@@ -131,11 +143,15 @@ export async function buildArtifacts(): Promise<void> {
   const budgetRecords = toBudgetAdoptedRecords(budgetSnapshot);
   const budgetValues = normalizeBudgetAdopted(budgetRecords, budgetEntry.id);
   const budgetEntities = buildBudgetEntities();
+  const revenueBudgetRecords = toRevenueBudgetRecords(revenueBudgetSnapshot);
+  const revenueBudgetValues = normalizeRevenueBudget(revenueBudgetRecords, revenueBudgetEntry.id);
+  const revenueCategoryEntities = buildRevenueCategoryEntities();
   const allEntities: readonly Entity[] = [
     ...entities,
     ...categoryEntities,
     ...acfrEntities,
     ...budgetEntities,
+    ...revenueCategoryEntities,
     ...socrataDepartments.entities,
   ];
   const allValues: readonly BudgetValue[] = [
@@ -145,6 +161,7 @@ export async function buildArtifacts(): Promise<void> {
     ...socrataDepartments.values,
     ...acfrValues,
     ...budgetValues,
+    ...revenueBudgetValues,
   ];
   const canonicalValues: readonly BudgetValue[] = [
     ...expValues,
@@ -152,6 +169,7 @@ export async function buildArtifacts(): Promise<void> {
     ...categoryValues,
     ...acfrValues,
     ...budgetValues,
+    ...revenueBudgetValues,
     ...socrataDepartments.values,
   ];
 
@@ -283,6 +301,7 @@ export async function buildArtifacts(): Promise<void> {
       "Phase 1 surface is SCO standardized actuals for Berkeley; adopted-versus-actual variance is deferred to Phase 3.",
       "ACFR FY2025 governmental funds actuals are modified-accrual; they are a subset of citywide totals and are not comparable on a like-for-like basis with enterprise funds.",
       "Socrata department-level values are adopted budgets (budgetary basis, FY2012-FY2015) aggregated from line items; they are not comparable like-for-like with SCO per-capita actuals (GAAP basis).",
+      "Revenue sub-category data is only available for FY2025 (adopted budget). For historical revenue trends, use citywide revenue.",
     ],
   });
 

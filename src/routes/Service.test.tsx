@@ -99,4 +99,12 @@ describe("Service route", () => {
     expect(nav.querySelector('a[href="#/compare"]')).not.toBeNull();
     expect(nav.querySelector('a[href="#/methodology"]')).not.toBeNull();
   });
+
+  it("renders a Report a data issue link in the footer", () => {
+    render(<Service serviceKey="svc-public-safety" />);
+    const link = screen.getByRole("link", { name: /report a data issue/i });
+    expect(link).toBeInTheDocument();
+    const href = link.getAttribute("href") ?? "";
+    expect(href.startsWith("mailto:data@berkeleyca.gov?")).toBe(true);
+  });
 });

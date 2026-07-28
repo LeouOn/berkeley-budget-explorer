@@ -96,4 +96,24 @@ describe("Quality route", () => {
     const table = gapCaption.closest("table");
     expect(table?.querySelectorAll("tbody tr").length).toBeGreaterThan(0);
   });
+
+  it("renders a Report a data issue link in the footer", () => {
+    render(<Quality />);
+    const link = screen.getByRole("link", { name: /report a data issue/i });
+    expect(link).toBeInTheDocument();
+    const href = link.getAttribute("href") ?? "";
+    expect(href.startsWith("mailto:data@berkeleyca.gov?")).toBe(true);
+  });
+
+  it("documents the FY2025 revenue sub-category comparability note", () => {
+    render(<Quality />);
+    expect(
+      screen.getByText(/Revenue sub-category data is only available for FY2025/i),
+    ).toBeInTheDocument();
+  });
+
+  it("lists the revenue-budget source in the coverage matrix", () => {
+    render(<Quality />);
+    expect(screen.getAllByText(/src-revenue-budget-fy2025/i).length).toBeGreaterThan(0);
+  });
 });

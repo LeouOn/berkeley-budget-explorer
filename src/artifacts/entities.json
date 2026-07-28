@@ -228,6 +228,72 @@
     "type": "service"
   },
   {
+    "canonicalName": "Secured Property Taxes (FY2025 adopted)",
+    "id": "ent-revenue-cat-secured-property-taxes",
+    "plainDescription": "Adopted FY2025 secured property tax revenue for the City of Berkeley (budgetary basis, page 41).",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Supplemental Taxes (FY2025 adopted)",
+    "id": "ent-revenue-cat-supplemental-taxes",
+    "plainDescription": "Adopted FY2025 supplemental property tax revenue for the City of Berkeley (budgetary basis, page 41).",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Unsecured Property Taxes (FY2025 adopted)",
+    "id": "ent-revenue-cat-unsecured-property-taxes",
+    "plainDescription": "Adopted FY2025 unsecured property tax revenue for the City of Berkeley (budgetary basis, page 41).",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Property Transfer Taxes (FY2025 adopted)",
+    "id": "ent-revenue-cat-property-transfer-taxes",
+    "plainDescription": "Adopted FY2025 property transfer tax revenue for the City of Berkeley (budgetary basis, page 41).",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Property Transfer Tax – Measure P (FY2025 adopted)",
+    "id": "ent-revenue-cat-property-transfer-tax-measure-p",
+    "plainDescription": "Adopted FY2025 Measure P property transfer tax revenue for the City of Berkeley (budgetary basis, page 41).",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Sales Tax (FY2025 adopted)",
+    "id": "ent-revenue-cat-sales-tax",
+    "plainDescription": "Adopted FY2025 sales tax revenue for the City of Berkeley (budgetary basis, page 41).",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Soda Tax (FY2025 adopted)",
+    "id": "ent-revenue-cat-soda-tax",
+    "plainDescription": "Adopted FY2025 soda tax revenue for the City of Berkeley (budgetary basis, page 41).",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Utility Users Taxes (FY2025 adopted)",
+    "id": "ent-revenue-cat-utility-users-taxes",
+    "plainDescription": "Adopted FY2025 utility users tax revenue for the City of Berkeley (budgetary basis, page 41).",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Transient Occupancy Taxes (FY2025 adopted)",
+    "id": "ent-revenue-cat-transient-occupancy-taxes",
+    "plainDescription": "Adopted FY2025 transient occupancy (hotel) tax revenue for the City of Berkeley (budgetary basis, page 41).",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Short-Term Rentals (FY2025 adopted)",
+    "id": "ent-revenue-cat-short-term-rentals",
+    "plainDescription": "Adopted FY2025 short-term rental tax revenue for the City of Berkeley (budgetary basis, page 41).",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Business License Taxes (FY2025 adopted)",
+    "id": "ent-revenue-cat-business-license-taxes",
+    "plainDescription": "Adopted FY2025 business license tax revenue for the City of Berkeley (budgetary basis, page 41).",
+    "type": "revenue-category"
+  },
+  {
     "canonicalName": "Auditor",
     "id": "ent-socrata-dept-auditor",
     "plainDescription": "City of Berkeley Auditor department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",

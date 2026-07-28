@@ -45,6 +45,7 @@ describe("Overview route", () => {
       "src-sco-revenues-per-capita-ky7j-fsk5",
       "src-acfr-fy2025",
       "src-budget-fy2025",
+      "src-revenue-budget-fy2025",
     ];
     for (const id of sourceIds) {
       expect(ids.some((t) => t.includes(id))).toBe(true);
@@ -87,5 +88,14 @@ describe("Overview route", () => {
   it("renders the schema reorganization insight body", () => {
     render(<Overview />);
     expect(screen.getByText(/categories before FY2017 became/)).toBeInTheDocument();
+  });
+
+  it("renders a Report a data issue link in the footer", () => {
+    render(<Overview />);
+    const link = screen.getByRole("link", { name: /report a data issue/i });
+    expect(link).toBeInTheDocument();
+    const href = link.getAttribute("href") ?? "";
+    expect(href.startsWith("mailto:data@berkeleyca.gov?")).toBe(true);
+    expect(href).toContain("subject=Budget+Explorer+data+issue");
   });
 });

@@ -1,4 +1,5 @@
 import qualityData from "../artifacts/quality-report.json" with { type: "json" };
+import { ReportIssue } from "../components/ReportIssue";
 import { methodologySections } from "../content/methodology";
 import { Card, DefinitionList, PageLayout } from "../design-system";
 import type { QualityReport } from "../pipeline/derive/quality-report";
@@ -21,6 +22,7 @@ export function Methodology(): React.JSX.Element {
       eyebrow="Berkeley Budget Explorer"
       title="Methodology and sources"
       intro="Every figure on this site traces back to a published source and a documented derivation step."
+      footer={<ReportIssue />}
     >
       <section aria-labelledby="sources-heading" className={styles.section}>
         <h2 id="sources-heading">Phase 1 sources</h2>

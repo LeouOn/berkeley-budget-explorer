@@ -33,10 +33,10 @@ test.describe("Overview route", () => {
     expect(realTableAgain).not.toBe(nominalTable);
   });
 
-  test("citation footer lists every source manifest id (all seven)", async ({ page }) => {
+  test("citation footer lists every source manifest id (all eight)", async ({ page }) => {
     await page.goto("/");
     const citations = page.locator("section[aria-labelledby='sources-heading'] li");
-    await expect(citations).toHaveCount(7);
+    await expect(citations).toHaveCount(8);
   });
 
   test("Overview page discloses that values are SCO standardized actuals", async ({ page }) => {

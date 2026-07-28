@@ -22,6 +22,7 @@ const GROUP_LABELS: Record<string, string> = {
   "src-sco-revenues-per-capita-ky7j-fsk5": "Citywide revenues (SCO per-capita)",
   "src-sco-expenditures-ju3w-4gxp": "Expenditure categories (SCO detailed)",
   "src-berkeley-socrata-gy8t-iqc4": "Departments (Socrata cohort)",
+  "src-revenue-budget-fy2025": "Revenue categories (FY2025 adopted budget)",
 };
 
 const SOURCE_PRIORITY: readonly string[] = [
@@ -29,6 +30,7 @@ const SOURCE_PRIORITY: readonly string[] = [
   "src-sco-revenues-per-capita-ky7j-fsk5",
   "src-sco-expenditures-ju3w-4gxp",
   "src-berkeley-socrata-gy8t-iqc4",
+  "src-revenue-budget-fy2025",
 ];
 
 function groupLabelFor(sourceId: string): string {

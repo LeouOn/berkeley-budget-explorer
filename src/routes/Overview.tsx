@@ -4,6 +4,7 @@ import overviewData from "../artifacts/overview.json" with { type: "json" };
 import populationData from "../artifacts/population.json" with { type: "json" };
 import releaseData from "../artifacts/release.json" with { type: "json" };
 import valuesData from "../artifacts/values.json" with { type: "json" };
+import { ReportIssue } from "../components/ReportIssue";
 import { serviceTaxonomy } from "../content/services";
 import {
   Card,
@@ -114,11 +115,14 @@ export function Overview(): React.JSX.Element {
       title="City of Berkeley at a glance"
       intro="Inflation-adjusted dollars by default, with a toggle for nominal amounts. Every figure links to one of five published sources."
       footer={
-        <small>
-          Release {release.releaseId} generated {release.generatedAt}. Phase 1 surface: California
-          State Controller standardized actuals for Berkeley (FY2003–FY2024). Adopted-versus-actual
-          variance is deferred to Phase 3.
-        </small>
+        <>
+          <small>
+            Release {release.releaseId} generated {release.generatedAt}. Phase 1 surface: California
+            State Controller standardized actuals for Berkeley (FY2003–FY2024).
+            Adopted-versus-actual variance is deferred to Phase 3.
+          </small>
+          <ReportIssue />
+        </>
       }
     >
       <nav className={styles.navLinks} aria-label="Route navigation">

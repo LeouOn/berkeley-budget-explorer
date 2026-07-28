@@ -2,6 +2,7 @@ import entitiesData from "../artifacts/entities.json" with { type: "json" };
 import qualityReportData from "../artifacts/quality-report.json" with { type: "json" };
 import releaseData from "../artifacts/release.json" with { type: "json" };
 import valuesData from "../artifacts/values.json" with { type: "json" };
+import { ReportIssue } from "../components/ReportIssue";
 import { type Column, DataTable, DefinitionList, PageLayout, Sparkline } from "../design-system";
 import type { BudgetValue, Entity } from "../pipeline/canonical/schema";
 import type { QualityReport } from "../pipeline/derive/quality-report";
@@ -123,10 +124,13 @@ export function Quality(): React.JSX.Element {
       title="Data quality dashboard"
       intro="Source coverage, reconciliation status, freshness, and comparability breaks for the current release."
       footer={
-        <small>
-          Release {release.releaseId} generated {release.generatedAt}. Pipeline status:{" "}
-          {data.status}. {data.sourceCount} pinned sources.
-        </small>
+        <>
+          <small>
+            Release {release.releaseId} generated {release.generatedAt}. Pipeline status:{" "}
+            {data.status}. {data.sourceCount} pinned sources.
+          </small>
+          <ReportIssue />
+        </>
       }
     >
       <nav className={styles.navLinks} aria-label="Route navigation">

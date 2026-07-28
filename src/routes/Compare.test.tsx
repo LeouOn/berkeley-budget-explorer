@@ -90,4 +90,12 @@ describe("Compare route", () => {
     const disabled = allBoxes.filter((cb) => cb.disabled && !cb.checked);
     expect(disabled.length).toBeGreaterThan(0);
   });
+
+  it("renders a Report a data issue link in the footer", () => {
+    render(<Compare />);
+    const link = screen.getByRole("link", { name: /report a data issue/i });
+    expect(link).toBeInTheDocument();
+    const href = link.getAttribute("href") ?? "";
+    expect(href.startsWith("mailto:data@berkeleyca.gov?")).toBe(true);
+  });
 });

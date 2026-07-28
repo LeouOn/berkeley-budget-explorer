@@ -4,6 +4,7 @@ import entitiesData from "../artifacts/entities.json" with { type: "json" };
 import populationData from "../artifacts/population.json" with { type: "json" };
 import releaseData from "../artifacts/release.json" with { type: "json" };
 import valuesData from "../artifacts/values.json" with { type: "json" };
+import { ReportIssue } from "../components/ReportIssue";
 import { buildEntityCatalog } from "../content/entity-catalog";
 import { DataTable, MultiSeriesChart, PageLayout, Toggle } from "../design-system";
 import type { BudgetValue, Entity } from "../pipeline/canonical/schema";
@@ -162,10 +163,13 @@ export function Compare(): React.JSX.Element {
       title="Budget comparison workspace"
       intro="Select up to 4 entities to compare across fiscal years. Toggle between real and nominal dollars, switch units, and export the underlying records."
       footer={
-        <small>
-          Release {release.releaseId}. Comparison values derive from the same SCO standardized
-          actuals as the Overview. Category sums are never added to the citywide total.
-        </small>
+        <>
+          <small>
+            Release {release.releaseId}. Comparison values derive from the same SCO standardized
+            actuals as the Overview. Category sums are never added to the citywide total.
+          </small>
+          <ReportIssue />
+        </>
       }
     >
       <nav className={styles.navLinks} aria-label="Route navigation">
