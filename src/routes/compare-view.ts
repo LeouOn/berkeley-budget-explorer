@@ -71,6 +71,7 @@ export function buildChartData(result: CompareResult, isPercentage: boolean): Mu
       seriesKey: s.entityId,
       seriesLabel: s.entityName,
       colorIndex: s.colorIndex,
+      comparability: p.comparability,
     })),
   );
   return {

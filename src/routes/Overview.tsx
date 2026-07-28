@@ -202,7 +202,7 @@ export function Overview(): React.JSX.Element {
         <p>
           The Socrata operating-budget cohort (<code>gy8t-iqc4</code>) publishes adopted
           department-level budgets for FY2012–FY2015. FY2015 marks the end of that cohort; it is
-          never stitched into the SCO actuals series.
+          never stitched into the SCO actuals series. Select a service to see its detail page.
         </p>
         <div className={styles.cardGrid}>
           {serviceTaxonomy.map((svc) => (
@@ -212,11 +212,20 @@ export function Overview(): React.JSX.Element {
               title={svc.label}
               body={<p>{svc.plainDescription}</p>}
               footer={
-                svc.socrataProgramKey ? (
-                  <small>Indexed in Socrata cohort as &quot;{svc.socrataProgramKey}&quot;.</small>
-                ) : (
-                  <small>Citywide total only in Phase 1.</small>
-                )
+                <div className={styles.cardFooterRow}>
+                  {svc.socrataProgramKey ? (
+                    <small>Indexed in Socrata cohort as &quot;{svc.socrataProgramKey}&quot;.</small>
+                  ) : (
+                    <small>Citywide total only in Phase 1.</small>
+                  )}
+                  <a
+                    href={`#/service/${svc.serviceKey}`}
+                    className={styles.compareDeptLink}
+                    aria-label={`Open ${svc.label} service detail`}
+                  >
+                    Service detail →
+                  </a>
+                </div>
               }
             />
           ))}
@@ -224,6 +233,25 @@ export function Overview(): React.JSX.Element {
         <p>
           <a href={compareByDepartmentHref} className={styles.compareDeptLink}>
             Compare Police, Fire, Public Works &amp; Parks by department →
+          </a>
+        </p>
+      </section>
+
+      <section aria-labelledby="revenue-heading" className={styles.section}>
+        <h2 id="revenue-heading">Citywide revenue context</h2>
+        <p>
+          The SCO revenues per-capita dataset (<code>ky7j-fsk5</code>) publishes Berkeley&apos;s
+          citywide revenue total FY2003–FY2024. Sub-category breakdowns (property tax, sales tax,
+          transfers) are not available from this source; the FY2025 ACFR adds category-level detail
+          for a single year only. Open Compare to track total revenue against total expenditure
+          across the full series.
+        </p>
+        <p>
+          <a
+            href="#/compare?entities=ent-citywide-revenue,ent-citywide-expenditure&start=2003&end=2024"
+            className={styles.compareDeptLink}
+          >
+            Compare citywide revenue vs expenditure →
           </a>
         </p>
       </section>

@@ -4,12 +4,18 @@ import { Card, DefinitionList, PageLayout } from "../design-system";
 import type { QualityReport } from "../pipeline/derive/quality-report";
 import type { SourceManifest } from "../pipeline/sources/manifest";
 import manifestData from "../pipeline/sources/manifest.data.json" with { type: "json" };
+import { usePermalink } from "../query/permalink";
 import styles from "./Methodology.module.css";
 
 const manifest = manifestData as SourceManifest;
 const quality = qualityData as QualityReport;
 
+function methodologyAnchor(title: string): string {
+  return `methodology-${title.replace(/\s+/g, "-").toLowerCase()}`;
+}
+
 export function Methodology(): React.JSX.Element {
+  const permalink = usePermalink();
   return (
     <PageLayout
       eyebrow="Berkeley Budget Explorer"
@@ -52,14 +58,29 @@ export function Methodology(): React.JSX.Element {
             { term: "Comparability notes", description: quality.comparabilityNotes.join(" · ") },
           ]}
         />
+        <div className={styles.shareRow}>
+          <button type="button" className={styles.shareBtn} onClick={permalink.copy}>
+            {permalink.label}
+          </button>
+          <span className={styles.srOnly} role="status" aria-live="polite">
+            {permalink.status === "copied"
+              ? "Share link copied to clipboard."
+              : permalink.status === "unsupported"
+                ? "Could not copy share link."
+                : ""}
+          </span>
+        </div>
       </section>
 
-      {methodologySections.map((section) => (
-        <section key={section.title} className={styles.section}>
-          <h2>{section.title}</h2>
-          <p>{section.body}</p>
-        </section>
-      ))}
+      {methodologySections.map((section) => {
+        const anchor = methodologyAnchor(section.title);
+        return (
+          <section key={section.title} aria-labelledby={anchor} className={styles.section}>
+            <h2 id={anchor}>{section.title}</h2>
+            <p>{section.body}</p>
+          </section>
+        );
+      })}
 
       <nav className={styles.navLinks} aria-label="Route navigation">
         <a href="#/">Overview</a>

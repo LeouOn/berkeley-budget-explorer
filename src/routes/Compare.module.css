@@ -139,6 +139,35 @@
   opacity: 0.85;
 }
 
+.actionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+.shareBtn {
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-md);
+  font-size: 0.9375rem;
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--ease-standard), border-color
+    var(--duration-fast) var(--ease-standard);
+}
+
+.shareBtn:hover {
+  background: var(--color-canvas);
+  border-color: var(--color-ink-muted);
+}
+
+.shareBtn:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
 .emptyState {
   padding: var(--space-6);
   text-align: center;

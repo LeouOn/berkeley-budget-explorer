@@ -42,6 +42,18 @@
   opacity: 0.75;
 }
 
+.mutedFooter {
+  display: block;
+  color: var(--color-ink-muted);
+  font-size: 0.8125rem;
+}
+
+.compareHint {
+  font-size: 0.9375rem;
+  color: var(--color-ink-muted);
+  max-width: var(--measure-prose);
+}
+
 .toggleRow {
   display: flex;
   flex-wrap: wrap;
@@ -84,6 +96,24 @@
   font-family: var(--font-mono);
   font-size: 0.8125rem;
   color: var(--color-ink-muted);
+}
+
+.footnote {
+  color: var(--color-ink-muted);
+  font-size: 0.8125rem;
+}
+
+.cardFooterRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.cardFooterRow small {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .warn {

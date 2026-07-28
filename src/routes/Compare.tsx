@@ -18,6 +18,7 @@ import {
   serializeCompareUrl,
 } from "../query/compare-url-state";
 import { comparisonToCsv, downloadCsv } from "../query/csv-export";
+import { usePermalink } from "../query/permalink";
 import styles from "./Compare.module.css";
 import { EntityPicker } from "./EntityPicker";
 import {
@@ -153,6 +154,8 @@ export function Compare(): React.JSX.Element {
     downloadCsv(`berkeley-budget-compare-${release.releaseId}.csv`, csv);
   }, [result, isPercentage]);
 
+  const permalink = usePermalink();
+
   return (
     <PageLayout
       eyebrow="Compare"
@@ -287,9 +290,21 @@ export function Compare(): React.JSX.Element {
                 rows={rows}
                 getRowKey={(r) => String(r.fiscalYear)}
               />
-              <button type="button" className={styles.exportBtn} onClick={handleExport}>
-                Download CSV
-              </button>
+              <div className={styles.actionRow}>
+                <button type="button" className={styles.exportBtn} onClick={handleExport}>
+                  Download CSV
+                </button>
+                <button type="button" className={styles.shareBtn} onClick={permalink.copy}>
+                  {permalink.label}
+                </button>
+                <span className={styles.srOnly} role="status" aria-live="polite">
+                  {permalink.status === "copied"
+                    ? "Share link copied to clipboard."
+                    : permalink.status === "unsupported"
+                      ? "Could not copy share link."
+                      : ""}
+                </span>
+              </div>
             </>
           ) : (
             <div className={styles.emptyState}>

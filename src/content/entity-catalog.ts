@@ -18,8 +18,8 @@ export interface CatalogGroup {
 }
 
 const GROUP_LABELS: Record<string, string> = {
-  "src-sco-expenditures-per-capita-ykhf-vfsr": "Citywide totals (SCO per-capita)",
-  "src-sco-revenues-per-capita-ky7j-fsk5": "Citywide totals (SCO per-capita)",
+  "src-sco-expenditures-per-capita-ykhf-vfsr": "Citywide expenditures (SCO per-capita)",
+  "src-sco-revenues-per-capita-ky7j-fsk5": "Citywide revenues (SCO per-capita)",
   "src-sco-expenditures-ju3w-4gxp": "Expenditure categories (SCO detailed)",
   "src-berkeley-socrata-gy8t-iqc4": "Departments (Socrata cohort)",
 };
