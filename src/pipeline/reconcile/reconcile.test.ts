@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { assertCohortSealed, parseSocrataRows } from "../sources/berkeley-socrata";
 import { socrataFixture } from "../sources/berkeley-socrata.fixtures";
-import { fiscalYearAverage, parseBlsSnapshot } from "../sources/bls-cpi";
+import { fiscalYearAverage } from "../sources/bls-cpi";
+import { parseBlsSnapshot } from "../sources/bls-cpi-node";
 import { blsFixture, blsPartialFixture } from "../sources/bls-cpi.fixtures";
 import { parseScoExpenditurePerCapita } from "../sources/sco-per-capita";
 import {

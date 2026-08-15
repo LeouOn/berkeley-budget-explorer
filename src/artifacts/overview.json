@@ -2,7 +2,7 @@
   "baseYear": 2024,
   "insights": [
     {
-      "body": "9 expenditure categories before FY2017 became 18 new categories post-FY2017. Comparisons across this boundary are approximate.",
+      "body": "9 expenditure categories before FY2017 became 24 new categories post-FY2017. Comparisons across this boundary are approximate.",
       "id": "schema-reorganization",
       "title": "Schema reorganization"
     },
@@ -22,6 +22,14 @@
         "ent-acfr-general-fund-expenditure"
       ],
       "title": "General Fund: Adopted vs Actual"
+    },
+    {
+      "body": "FY2024 total expenditures: budgeted $679.3M, estimated actual $639.3M. Tracking $40.0M (5.9%) less than budgeted (budget-book estimate; audited actuals pending).",
+      "id": "fy2024-budget-variance",
+      "linkToCompare": [
+        "ent-bhist-exp-total-expenditures"
+      ],
+      "title": "FY2024: Budget vs Estimated Actual"
     }
   ],
   "schemaVersion": "1.0.0",

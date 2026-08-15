@@ -1,11 +1,7 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import {
-  type SourceEntry,
-  type SourceManifest,
-  SourceManifestSchema,
-  sha256Of,
-} from "./sources/manifest";
+import { type SourceEntry, type SourceManifest, SourceManifestSchema } from "./sources/manifest";
+import { sha256Of } from "./sources/manifest-node";
 import manifestData from "./sources/manifest.data.json" with { type: "json" };
 
 export function getManifest(): SourceManifest {

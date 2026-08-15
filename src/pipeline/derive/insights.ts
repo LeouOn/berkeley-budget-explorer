@@ -129,6 +129,34 @@ function buildAdoptedVsActualInsight(values: readonly BudgetValue[]): OverviewIn
   };
 }
 
+const BHIST_TOTAL_EXPENDITURE_ID = "ent-bhist-exp-total-expenditures";
+
+function buildFY2024VarianceInsight(values: readonly BudgetValue[]): OverviewInsight | null {
+  const adopted = values.find(
+    (v) =>
+      v.entityId === BHIST_TOTAL_EXPENDITURE_ID && v.fiscalYear === 2024 && v.stage === "adopted",
+  );
+  const projected = values.find(
+    (v) =>
+      v.entityId === BHIST_TOTAL_EXPENDITURE_ID && v.fiscalYear === 2024 && v.stage === "projected",
+  );
+  if (!adopted || !projected) return null;
+  const deltaCents = projected.amountNominalCents - adopted.amountNominalCents;
+  const pct =
+    adopted.amountNominalCents > 0
+      ? Math.round((deltaCents / adopted.amountNominalCents) * 1000) / 10
+      : 0;
+  const toMillions = (cents: number): string => (cents / 100_000_000).toFixed(1);
+  const direction = deltaCents >= 0 ? "more" : "less";
+  const body = `FY2024 total expenditures: budgeted $${toMillions(adopted.amountNominalCents)}M, estimated actual $${toMillions(projected.amountNominalCents)}M. Tracking $${toMillions(Math.abs(deltaCents))}M (${Math.abs(pct).toFixed(1)}%) ${direction} than budgeted (budget-book estimate; audited actuals pending).`;
+  return {
+    id: "fy2024-budget-variance",
+    title: "FY2024: Budget vs Estimated Actual",
+    body,
+    linkToCompare: [BHIST_TOTAL_EXPENDITURE_ID],
+  };
+}
+
 function buildSchemaReorganizationInsight(values: readonly BudgetValue[]): OverviewInsight | null {
   const pre = new Set<string>();
   const post = new Set<string>();
@@ -155,5 +183,7 @@ export function buildOverviewInsights(input: BuildInsightsInput): readonly Overv
   if (growth) insights.push(growth);
   const variance = buildAdoptedVsActualInsight(values);
   if (variance) insights.push(variance);
+  const fy2024Variance = buildFY2024VarianceInsight(values);
+  if (fy2024Variance) insights.push(fy2024Variance);
   return insights;
 }

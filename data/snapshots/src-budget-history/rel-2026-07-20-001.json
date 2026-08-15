@@ -1,0 +1,285 @@
+{
+  "schemaVersion": "1.0.0",
+  "reportType": "Budget History Tables",
+  "entity": "City of Berkeley",
+  "sourceDocument": "FY 2025-2026 Adopted Biennial Budget",
+  "sourceUrl": "https://berkeleyca.gov/sites/default/files/documents/FY-2025-2026-Proposed-Biennial-Budget.pdf",
+  "extractedPages": {
+    "revenueHistory": 40,
+    "expenditureHistory": 41
+  },
+  "columnStages": {
+    "fy2022Actual": "actual",
+    "fy2023Actual": "actual",
+    "fy2024Estimated": "projected",
+    "fy2024Budgeted": "adopted",
+    "fy2025Adopted": "adopted",
+    "fy2026Adopted": "adopted"
+  },
+  "notes": "Operating revenues exclude transfers in. Total Expenditures excludes operating transfers out. FY2024 'Est. Actual' is the budget book's year-end estimate, staged as projected, never blended with audited actuals.",
+  "expenditureCategories": [
+    {
+      "name": "Salaries & Benefits",
+      "fy2022Actual": 30212265400,
+      "fy2023Actual": 31872785100,
+      "fy2024Estimated": 33430661300,
+      "fy2024Budgeted": 34283471200,
+      "fy2025Adopted": 38032907400,
+      "fy2026Adopted": 39085356400
+    },
+    {
+      "name": "Services & Materials",
+      "fy2022Actual": 12864483000,
+      "fy2023Actual": 14393194300,
+      "fy2024Estimated": 15683009900,
+      "fy2024Budgeted": 14079321600,
+      "fy2025Adopted": 15120843000,
+      "fy2026Adopted": 14381486700
+    },
+    {
+      "name": "Capital Outlay",
+      "fy2022Actual": 6402956500,
+      "fy2023Actual": 3102386000,
+      "fy2024Estimated": 4330378500,
+      "fy2024Budgeted": 8661643500,
+      "fy2025Adopted": 7235634000,
+      "fy2026Adopted": 6138821200
+    },
+    {
+      "name": "Internal Services & All Other",
+      "fy2022Actual": 8976454100,
+      "fy2023Actual": 10111961300,
+      "fy2024Estimated": 10490096400,
+      "fy2024Budgeted": 10908105100,
+      "fy2025Adopted": 14277752000,
+      "fy2026Adopted": 14521548700
+    },
+    {
+      "name": "Total Expenditures",
+      "fy2022Actual": 58456159000,
+      "fy2023Actual": 59480326700,
+      "fy2024Estimated": 63934146100,
+      "fy2024Budgeted": 67932541400,
+      "fy2025Adopted": 74667136400,
+      "fy2026Adopted": 74127213000
+    },
+    {
+      "name": "Operating Transfers Out",
+      "fy2022Actual": 8833984500,
+      "fy2023Actual": 7611932900,
+      "fy2024Estimated": 6214881300,
+      "fy2024Budgeted": 5403963900,
+      "fy2025Adopted": 4664834900,
+      "fy2026Adopted": 4174498600
+    }
+  ],
+  "revenueCategories": [
+    {
+      "name": "Secured Property Taxes",
+      "fy2022Actual": 7065748200,
+      "fy2023Actual": 7926068900,
+      "fy2024Estimated": 8485006100,
+      "fy2024Budgeted": 8472571700,
+      "fy2025Adopted": 8988749600,
+      "fy2026Adopted": 9303355800
+    },
+    {
+      "name": "Supplemental Taxes",
+      "fy2022Actual": 231772300,
+      "fy2023Actual": 356175200,
+      "fy2024Estimated": 284227300,
+      "fy2024Budgeted": 340000000,
+      "fy2025Adopted": 340000000,
+      "fy2026Adopted": 340000000
+    },
+    {
+      "name": "Unsecured Property Taxes",
+      "fy2022Actual": 442241400,
+      "fy2023Actual": 383069700,
+      "fy2024Estimated": 450644400,
+      "fy2024Budgeted": 380699500,
+      "fy2025Adopted": 464803800,
+      "fy2026Adopted": 464803800
+    },
+    {
+      "name": "Property Transfer Taxes",
+      "fy2022Actual": 4290175000,
+      "fy2023Actual": 2287833600,
+      "fy2024Estimated": 1854751300,
+      "fy2024Budgeted": 2287378600,
+      "fy2025Adopted": 1900000000,
+      "fy2026Adopted": 2100000000
+    },
+    {
+      "name": "Property Transfer Tax – Measure P",
+      "fy2022Actual": 2059131300,
+      "fy2023Actual": 1019958000,
+      "fy2024Estimated": 527494600,
+      "fy2024Budgeted": 1018950000,
+      "fy2025Adopted": 619958000,
+      "fy2026Adopted": 650955900
+    },
+    {
+      "name": "Sales Tax",
+      "fy2022Actual": 1892827800,
+      "fy2023Actual": 1919497100,
+      "fy2024Estimated": 1871704000,
+      "fy2024Budgeted": 1965422500,
+      "fy2025Adopted": 1888423500,
+      "fy2026Adopted": 1924335700
+    },
+    {
+      "name": "Soda Tax",
+      "fy2022Actual": 102580000,
+      "fy2023Actual": 116231000,
+      "fy2024Estimated": 108993900,
+      "fy2024Budgeted": 114738700,
+      "fy2025Adopted": 114738700,
+      "fy2026Adopted": 114738700
+    },
+    {
+      "name": "Utility Users Taxes",
+      "fy2022Actual": 1475006500,
+      "fy2023Actual": 1763456500,
+      "fy2024Estimated": 1720944100,
+      "fy2024Budgeted": 1745432000,
+      "fy2025Adopted": 1770000000,
+      "fy2026Adopted": 1770000000
+    },
+    {
+      "name": "Transient Occupancy Taxes",
+      "fy2022Actual": 572704600,
+      "fy2023Actual": 747791100,
+      "fy2024Estimated": 698497700,
+      "fy2024Budgeted": 837458800,
+      "fy2025Adopted": 768806500,
+      "fy2026Adopted": 791870700
+    },
+    {
+      "name": "Short-Term Rentals",
+      "fy2022Actual": 129579800,
+      "fy2023Actual": 137243900,
+      "fy2024Estimated": 146494600,
+      "fy2024Budgeted": 140000000,
+      "fy2025Adopted": 140000000,
+      "fy2026Adopted": 140000000
+    },
+    {
+      "name": "Business License Taxes",
+      "fy2022Actual": 2040397500,
+      "fy2023Actual": 2185419300,
+      "fy2024Estimated": 2376068900,
+      "fy2024Budgeted": 2156078300,
+      "fy2025Adopted": 2366400000,
+      "fy2026Adopted": 2413728000
+    },
+    {
+      "name": "Recreational Cannabis",
+      "fy2022Actual": 125079200,
+      "fy2023Actual": 99757200,
+      "fy2024Estimated": 15283400,
+      "fy2024Budgeted": 100000000,
+      "fy2025Adopted": 1800000,
+      "fy2026Adopted": 5000000
+    },
+    {
+      "name": "Measure U1",
+      "fy2022Actual": 491387200,
+      "fy2023Actual": 584456400,
+      "fy2024Estimated": 626678600,
+      "fy2024Budgeted": 590000000,
+      "fy2025Adopted": 650000000,
+      "fy2026Adopted": 620000000
+    },
+    {
+      "name": "Other Taxes",
+      "fy2022Actual": 379008800,
+      "fy2023Actual": 545588700,
+      "fy2024Estimated": 529921700,
+      "fy2024Budgeted": 445305900,
+      "fy2025Adopted": 545305900,
+      "fy2026Adopted": 1045305900
+    },
+    {
+      "name": "Vehicle In Lieu Taxes",
+      "fy2022Actual": 1500600300,
+      "fy2023Actual": 1665966500,
+      "fy2024Estimated": 1787582100,
+      "fy2024Budgeted": 1781113400,
+      "fy2025Adopted": 1885125700,
+      "fy2026Adopted": 1951105100
+    },
+    {
+      "name": "Parking Fines",
+      "fy2022Actual": 476581900,
+      "fy2023Actual": 587585800,
+      "fy2024Estimated": 603266600,
+      "fy2024Budgeted": 580000000,
+      "fy2025Adopted": 580000000,
+      "fy2026Adopted": 580000000
+    },
+    {
+      "name": "Moving Violations",
+      "fy2022Actual": 15625300,
+      "fy2023Actual": 14942000,
+      "fy2024Estimated": 16615200,
+      "fy2024Budgeted": 13260000,
+      "fy2025Adopted": 13260000,
+      "fy2026Adopted": 13525200
+    },
+    {
+      "name": "Ambulance Fees",
+      "fy2022Actual": 383373000,
+      "fy2023Actual": 514312000,
+      "fy2024Estimated": 791066800,
+      "fy2024Budgeted": 535077900,
+      "fy2025Adopted": 773481300,
+      "fy2026Adopted": 723481300
+    },
+    {
+      "name": "Interest Income",
+      "fy2022Actual": 946670200,
+      "fy2023Actual": 1985636800,
+      "fy2024Estimated": 2327767000,
+      "fy2024Budgeted": 1033724500,
+      "fy2025Adopted": 1501103400,
+      "fy2026Adopted": 1401103400
+    },
+    {
+      "name": "Franchise Fees",
+      "fy2022Actual": 234784400,
+      "fy2023Actual": 260264700,
+      "fy2024Estimated": 237584900,
+      "fy2024Budgeted": 205770000,
+      "fy2025Adopted": 224752800,
+      "fy2026Adopted": 224752800
+    },
+    {
+      "name": "Indirect Cost Reimbursement",
+      "fy2022Actual": 507469500,
+      "fy2023Actual": 675857700,
+      "fy2024Estimated": 684959200,
+      "fy2024Budgeted": 610497000,
+      "fy2025Adopted": 703162400,
+      "fy2026Adopted": 717225600
+    },
+    {
+      "name": "Other Revenues",
+      "fy2022Actual": 44002562700,
+      "fy2023Actual": 37564568800,
+      "fy2024Estimated": 37778011100,
+      "fy2024Budgeted": 30163803000,
+      "fy2025Adopted": 32780506000,
+      "fy2026Adopted": 33686623700
+    },
+    {
+      "name": "Total Revenues",
+      "fy2022Actual": 69365306900,
+      "fy2023Actual": 63341680900,
+      "fy2024Estimated": 63923563500,
+      "fy2024Budgeted": 55517281800,
+      "fy2025Adopted": 59020377600,
+      "fy2026Adopted": 60981911600
+    }
+  ]
+}

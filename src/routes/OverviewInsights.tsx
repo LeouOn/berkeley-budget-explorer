@@ -9,12 +9,16 @@ interface OverviewInsightsProps {
 // Insight-specific compare URLs. Each curated insight links to a precise
 // comparison: growth opens across the full FY2003-FY2024 series, the adopted
 // vs actual variance opens on FY2025 alone with no stage filter so both the
-// adopted and actual points render together. The schema insight stays
+// adopted and actual points render together, the FY2024 budget variance opens
+// on FY2024 with both budgeted and estimated points. The schema insight stays
 // informational — no link.
 function compareHrefForInsight(insight: OverviewInsight): string | null {
   if (!insight.linkToCompare || insight.linkToCompare.length === 0) return null;
   if (insight.id === "general-fund-adopted-vs-actual") {
     return `#/compare?entities=${insight.linkToCompare.join(",")}&start=2025&end=2025`;
+  }
+  if (insight.id === "fy2024-budget-variance") {
+    return `#/compare?entities=${insight.linkToCompare.join(",")}&start=2024&end=2024`;
   }
   return `#/compare?entities=${insight.linkToCompare.join(",")}&start=2003&end=2024`;
 }

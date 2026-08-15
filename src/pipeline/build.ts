@@ -14,6 +14,10 @@ import {
 } from "./canonical/normalize";
 import { buildBudgetEntities, normalizeBudgetAdopted } from "./canonical/normalize-budget";
 import {
+  buildBudgetHistoryEntities,
+  normalizeBudgetHistory,
+} from "./canonical/normalize-budget-history";
+import {
   buildRevenueCategoryEntities,
   normalizeRevenueBudget,
 } from "./canonical/normalize-revenue-budget";
@@ -33,12 +37,9 @@ import {
   toAcfrGovernmentalFundsRecords,
 } from "./sources/acfr-transcription";
 import { assertCohortSealed, groupByService, parseSocrataRows } from "./sources/berkeley-socrata";
-import {
-  MIN_COVERAGE,
-  fiscalYearAverage,
-  latestCompleteFiscalYear,
-  loadBlsFromSnapshot,
-} from "./sources/bls-cpi";
+import { MIN_COVERAGE, fiscalYearAverage, latestCompleteFiscalYear } from "./sources/bls-cpi";
+import { loadBlsFromSnapshot } from "./sources/bls-cpi-node";
+import { toBudgetHistoryRecords } from "./sources/budget-history-transcription";
 import { parseBudgetFy2025Snapshot, toBudgetAdoptedRecords } from "./sources/budget-transcription";
 import { SourceManifestSchema } from "./sources/manifest";
 import manifestData from "./sources/manifest.data.json" with { type: "json" };
@@ -146,12 +147,18 @@ export async function buildArtifacts(): Promise<void> {
   const revenueBudgetRecords = toRevenueBudgetRecords(revenueBudgetSnapshot);
   const revenueBudgetValues = normalizeRevenueBudget(revenueBudgetRecords, revenueBudgetEntry.id);
   const revenueCategoryEntities = buildRevenueCategoryEntities();
+  const budgetHistoryEntry = requireEntry("src-budget-history");
+  const budgetHistorySnapshot = loadVerifiedSnapshot(SNAPSHOT_ROOT, budgetHistoryEntry, releaseId);
+  const budgetHistoryRecords = toBudgetHistoryRecords(budgetHistorySnapshot);
+  const budgetHistoryValues = normalizeBudgetHistory(budgetHistoryRecords, budgetHistoryEntry.id);
+  const budgetHistoryEntities = buildBudgetHistoryEntities(budgetHistoryRecords);
   const allEntities: readonly Entity[] = [
     ...entities,
     ...categoryEntities,
     ...acfrEntities,
     ...budgetEntities,
     ...revenueCategoryEntities,
+    ...budgetHistoryEntities,
     ...socrataDepartments.entities,
   ];
   const allValues: readonly BudgetValue[] = [
@@ -162,6 +169,7 @@ export async function buildArtifacts(): Promise<void> {
     ...acfrValues,
     ...budgetValues,
     ...revenueBudgetValues,
+    ...budgetHistoryValues,
   ];
   const canonicalValues: readonly BudgetValue[] = [
     ...expValues,
@@ -170,6 +178,7 @@ export async function buildArtifacts(): Promise<void> {
     ...acfrValues,
     ...budgetValues,
     ...revenueBudgetValues,
+    ...budgetHistoryValues,
     ...socrataDepartments.values,
   ];
 

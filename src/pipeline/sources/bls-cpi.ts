@@ -1,7 +1,4 @@
-import { readFile } from "node:fs/promises";
 import { z } from "zod";
-import { SourceManifestSchema } from "./manifest";
-import manifestData from "./manifest.data.json" with { type: "json" };
 
 export const EXPECTED_SERIES_ID = "CUURA422SA0";
 
@@ -21,10 +18,6 @@ const BlsDataRowSchema = z.object({
   footnotes: z.array(z.unknown()).optional(),
 });
 
-// BLS publishes "-" for unavailable observations (e.g. 2025 lapse in
-// appropriations). The raw schema rejects those because the value is not
-// numeric; this schema accepts the full response shape so the snapshot can
-// be validated, and parseBlsSnapshot filters non-numeric rows.
 const BlsRawRowSchema = z.object({
   year: z.string().regex(/^\d{4}$/),
   period: z.string().regex(/^M(0[1-9]|1[0-2])$/),
@@ -65,17 +58,6 @@ export class BlsCoverageIncompleteError extends Error {
     );
     this.name = "BlsCoverageIncompleteError";
   }
-}
-
-export function parseBlsSnapshot(raw: unknown): readonly CpiObservation[] {
-  const response = BlsResponseSchema.parse(raw);
-  return response.Results.data
-    .filter((row) => /^-?\d+(\.\d+)?$/.test(row.value))
-    .map((row) => ({
-      year: Number.parseInt(row.year, 10),
-      month: Number.parseInt(row.period.slice(1), 10),
-      value: Number.parseFloat(row.value),
-    }));
 }
 
 export function fiscalYearOf(month: number, year: number): number {
@@ -136,10 +118,6 @@ export function latestCompleteFiscalYear(
   return Math.max(...qualifying.map((a) => a.fiscalYear));
 }
 
-export function parseCpiObservations(body: unknown): readonly CpiObservation[] {
-  return parseBlsSnapshot(body);
-}
-
 export function inflateCents(
   nominalCents: number,
   targetYear: number,
@@ -148,22 +126,4 @@ export function inflateCents(
 ): number {
   const factor = factorFor(averages, targetYear, baseYear);
   return Math.round(nominalCents * factor);
-}
-
-export async function loadBlsFromSnapshot(
-  root: string,
-  releaseId: string,
-): Promise<readonly CpiObservation[]> {
-  const manifest = SourceManifestSchema.parse(manifestData);
-  const entry = manifest.sources.find((s) => s.id === "src-bls-cpi-u-cuura422sa0");
-  if (!entry) throw new Error("BLS entry missing from manifest");
-  const path = `${root}/${entry.id}/${releaseId}.json`;
-  const bytes = await readFile(path);
-  const expected = entry.checksumSha256;
-  const { createHash } = await import("node:crypto");
-  const actual = createHash("sha256").update(bytes).digest("hex");
-  if (actual !== expected) {
-    throw new Error(`BLS snapshot checksum mismatch (expected ${expected}, got ${actual})`);
-  }
-  return parseCpiObservations(JSON.parse(bytes.toString("utf-8")));
 }

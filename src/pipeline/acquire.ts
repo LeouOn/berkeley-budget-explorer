@@ -1,12 +1,8 @@
 import { mkdir, rename, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import {
-  type SourceEntry,
-  SourceEntrySchema,
-  SourceManifestSchema,
-  sha256Of,
-} from "./sources/manifest";
+import { type SourceEntry, SourceEntrySchema, SourceManifestSchema } from "./sources/manifest";
+import { sha256Of } from "./sources/manifest-node";
 import manifestData from "./sources/manifest.data.json" with { type: "json" };
 
 const __dirname = dirname(fileURLToPath(import.meta.url));

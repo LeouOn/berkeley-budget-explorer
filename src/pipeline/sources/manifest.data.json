@@ -106,6 +106,19 @@
       "parserVersion": "1.0.0",
       "fiscalPeriods": [{ "start": 2025, "end": 2025 }],
       "notes": "Adopted FY2025 revenue sub-categories (secured property tax, sales tax, business license tax, etc.) transcribed from PDF page 41. Single-year snapshot; the budget book does not publish a historical series for these line items."
+    },
+    {
+      "id": "src-budget-history",
+      "title": "City of Berkeley Budget History Tables FY2022-FY2026",
+      "publisher": "City of Berkeley Office of Budget & Fiscal Management",
+      "url": "https://berkeleyca.gov/sites/default/files/documents/FY-2025-2026-Proposed-Biennial-Budget.pdf",
+      "identityField": "entity",
+      "expectedIdentity": "City of Berkeley",
+      "retrievedAt": "2026-07-28",
+      "checksumSha256": "f20fdcd170ff8df701a121a4efcf89afa5d3aa42280b0af37d54aba876ec3665",
+      "parserVersion": "1.0.0",
+      "fiscalPeriods": [{ "start": 2022, "end": 2026 }],
+      "notes": "Expenditure and revenue history by category from PDF pages 40-41. FY2022-FY2023 are actuals; FY2024 estimated-actual is staged as projected (never blended with audited actuals); FY2024 budgeted and FY2025-FY2026 are adopted. Operating revenues exclude transfers in. Expenditure categories sum exactly to printed totals in all six years."
     }
   ]
 }

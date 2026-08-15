@@ -10,11 +10,12 @@ test.describe("Quality route", () => {
     await expect(page.getByRole("table").first()).toBeVisible();
   });
 
-  test("lists all six source ids including ACFR FY2025", async ({ page }) => {
+  test("lists manifest source ids including ACFR FY2025 and budget history", async ({ page }) => {
     await page.goto("/#/quality");
     await expect(page.getByText("src-acfr-fy2025").first()).toBeVisible();
     await expect(page.getByText("src-bls-cpi-u-cuura422sa0").first()).toBeVisible();
     await expect(page.getByText("src-sco-revenues-per-capita-ky7j-fsk5").first()).toBeVisible();
+    await expect(page.getByText("src-budget-history").first()).toBeVisible();
   });
 
   test("renders the reconciliation results table with passed status", async ({ page }) => {

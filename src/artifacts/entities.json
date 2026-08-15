@@ -294,6 +294,180 @@
     "type": "revenue-category"
   },
   {
+    "canonicalName": "Capital Outlay",
+    "id": "ent-bhist-exp-capital-outlay",
+    "plainDescription": "City of Berkeley Capital Outlay from the FY2025-2026 budget book expenditure history table (pages 40-41), FY2022-FY2026.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Internal Services & All Other",
+    "id": "ent-bhist-exp-internal-services-all-other",
+    "plainDescription": "City of Berkeley Internal Services & All Other from the FY2025-2026 budget book expenditure history table (pages 40-41), FY2022-FY2026.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Operating Transfers Out",
+    "id": "ent-bhist-exp-operating-transfers-out",
+    "plainDescription": "City of Berkeley Operating Transfers Out from the FY2025-2026 budget book expenditure history table (pages 40-41), FY2022-FY2026.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Salaries & Benefits",
+    "id": "ent-bhist-exp-salaries-benefits",
+    "plainDescription": "City of Berkeley Salaries & Benefits from the FY2025-2026 budget book expenditure history table (pages 40-41), FY2022-FY2026.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Services & Materials",
+    "id": "ent-bhist-exp-services-materials",
+    "plainDescription": "City of Berkeley Services & Materials from the FY2025-2026 budget book expenditure history table (pages 40-41), FY2022-FY2026.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Total Expenditures",
+    "id": "ent-bhist-exp-total-expenditures",
+    "plainDescription": "City of Berkeley Total Expenditures from the FY2025-2026 budget book expenditure history table (pages 40-41), FY2022-FY2026.",
+    "type": "expense-category"
+  },
+  {
+    "canonicalName": "Ambulance Fees",
+    "id": "ent-bhist-rev-ambulance-fees",
+    "plainDescription": "City of Berkeley Ambulance Fees from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Business License Taxes",
+    "id": "ent-bhist-rev-business-license-taxes",
+    "plainDescription": "City of Berkeley Business License Taxes from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Franchise Fees",
+    "id": "ent-bhist-rev-franchise-fees",
+    "plainDescription": "City of Berkeley Franchise Fees from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Indirect Cost Reimbursement",
+    "id": "ent-bhist-rev-indirect-cost-reimbursement",
+    "plainDescription": "City of Berkeley Indirect Cost Reimbursement from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Interest Income",
+    "id": "ent-bhist-rev-interest-income",
+    "plainDescription": "City of Berkeley Interest Income from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Measure U1",
+    "id": "ent-bhist-rev-measure-u1",
+    "plainDescription": "City of Berkeley Measure U1 from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Moving Violations",
+    "id": "ent-bhist-rev-moving-violations",
+    "plainDescription": "City of Berkeley Moving Violations from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Other Revenues",
+    "id": "ent-bhist-rev-other-revenues",
+    "plainDescription": "City of Berkeley Other Revenues from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Other Taxes",
+    "id": "ent-bhist-rev-other-taxes",
+    "plainDescription": "City of Berkeley Other Taxes from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Parking Fines",
+    "id": "ent-bhist-rev-parking-fines",
+    "plainDescription": "City of Berkeley Parking Fines from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Property Transfer Tax – Measure P",
+    "id": "ent-bhist-rev-property-transfer-tax-measure-p",
+    "plainDescription": "City of Berkeley Property Transfer Tax – Measure P from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Property Transfer Taxes",
+    "id": "ent-bhist-rev-property-transfer-taxes",
+    "plainDescription": "City of Berkeley Property Transfer Taxes from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Recreational Cannabis",
+    "id": "ent-bhist-rev-recreational-cannabis",
+    "plainDescription": "City of Berkeley Recreational Cannabis from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Sales Tax",
+    "id": "ent-bhist-rev-sales-tax",
+    "plainDescription": "City of Berkeley Sales Tax from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Secured Property Taxes",
+    "id": "ent-bhist-rev-secured-property-taxes",
+    "plainDescription": "City of Berkeley Secured Property Taxes from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Short-Term Rentals",
+    "id": "ent-bhist-rev-short-term-rentals",
+    "plainDescription": "City of Berkeley Short-Term Rentals from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Soda Tax",
+    "id": "ent-bhist-rev-soda-tax",
+    "plainDescription": "City of Berkeley Soda Tax from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Supplemental Taxes",
+    "id": "ent-bhist-rev-supplemental-taxes",
+    "plainDescription": "City of Berkeley Supplemental Taxes from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Total Revenues",
+    "id": "ent-bhist-rev-total-revenues",
+    "plainDescription": "City of Berkeley Total Revenues from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Transient Occupancy Taxes",
+    "id": "ent-bhist-rev-transient-occupancy-taxes",
+    "plainDescription": "City of Berkeley Transient Occupancy Taxes from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Unsecured Property Taxes",
+    "id": "ent-bhist-rev-unsecured-property-taxes",
+    "plainDescription": "City of Berkeley Unsecured Property Taxes from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Utility Users Taxes",
+    "id": "ent-bhist-rev-utility-users-taxes",
+    "plainDescription": "City of Berkeley Utility Users Taxes from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
+    "canonicalName": "Vehicle In Lieu Taxes",
+    "id": "ent-bhist-rev-vehicle-in-lieu-taxes",
+    "plainDescription": "City of Berkeley Vehicle In Lieu Taxes from the FY2025-2026 budget book revenue history table (page 40), FY2022-FY2026.",
+    "type": "revenue-category"
+  },
+  {
     "canonicalName": "Auditor",
     "id": "ent-socrata-dept-auditor",
     "plainDescription": "City of Berkeley Auditor department adopted operating budget, aggregated from Socrata line items (FY2012-FY2015 cohort).",

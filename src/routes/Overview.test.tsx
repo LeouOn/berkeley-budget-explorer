@@ -46,6 +46,7 @@ describe("Overview route", () => {
       "src-acfr-fy2025",
       "src-budget-fy2025",
       "src-revenue-budget-fy2025",
+      "src-budget-history",
     ];
     for (const id of sourceIds) {
       expect(ids.some((t) => t.includes(id))).toBe(true);

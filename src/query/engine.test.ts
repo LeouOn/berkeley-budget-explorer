@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import type { BudgetValue, Entity } from "../pipeline/canonical/schema";
 import type { OverviewSnapshot } from "../pipeline/derive/derive";
-import { fiscalYearAverage, parseCpiObservations } from "../pipeline/sources/bls-cpi";
+import { fiscalYearAverage } from "../pipeline/sources/bls-cpi";
+import { parseCpiObservations } from "../pipeline/sources/bls-cpi-node";
 import { blsFixture } from "../pipeline/sources/bls-cpi.fixtures";
 import { formatCents, getOverviewTrend } from "./engine";
 

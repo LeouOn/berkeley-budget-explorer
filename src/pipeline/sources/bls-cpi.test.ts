@@ -6,8 +6,8 @@ import {
   fiscalYearAverage,
   fiscalYearOf,
   latestCompleteFiscalYear,
-  parseBlsSnapshot,
 } from "./bls-cpi";
+import { parseBlsSnapshot } from "./bls-cpi-node";
 import { blsFixture, blsPartialFixture } from "./bls-cpi.fixtures";
 
 describe("bls-cpi adapter", () => {

@@ -1,13 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import {
-  SourceEntrySchema,
-  SourceIdSchema,
-  SourceManifestSchema,
-  loadSnapshot,
-  readManifestFromDisk,
-  verifySnapshot,
-} from "./manifest";
+import { SourceEntrySchema, SourceIdSchema, SourceManifestSchema } from "./manifest";
+import { loadSnapshot, readManifestFromDisk, verifySnapshot } from "./manifest-node";
 import manifestData from "./manifest.data.json" with { type: "json" };
 
 describe("source manifest schemas", () => {
@@ -85,11 +79,12 @@ describe("source manifest schemas", () => {
     expect(parsed.sources.length).toBeGreaterThanOrEqual(7);
   });
 
-  it("the pinned manifest lists eight sources after the FY2025 revenue-category addition", () => {
+  it("the pinned manifest lists nine sources after the budget-history addition", () => {
     const parsed = SourceManifestSchema.parse(manifestData);
-    expect(parsed.sources).toHaveLength(8);
+    expect(parsed.sources).toHaveLength(9);
     const ids = parsed.sources.map((s) => s.id);
     expect(ids).toContain("src-revenue-budget-fy2025");
+    expect(ids).toContain("src-budget-history");
   });
 
   it("each source entry has an API URL containing /resource/ or a .pdf document", () => {

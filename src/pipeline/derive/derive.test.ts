@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { BudgetValue, Entity } from "../canonical/schema";
-import { fiscalYearAverage, parseCpiObservations } from "../sources/bls-cpi";
+import { fiscalYearAverage } from "../sources/bls-cpi";
+import { parseCpiObservations } from "../sources/bls-cpi-node";
 import { blsFixture } from "../sources/bls-cpi.fixtures";
 import { buildOverviewSnapshot } from "./derive";
 
