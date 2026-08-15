@@ -7,7 +7,7 @@
     "Socrata department-level values are adopted budgets (budgetary basis, FY2012-FY2015) aggregated from line items; they are not comparable like-for-like with SCO per-capita actuals (GAAP basis).",
     "Revenue sub-category data is only available for FY2025 (adopted budget). For historical revenue trends, use citywide revenue."
   ],
-  "generatedAt": "2026-08-15T01:01:48.076Z",
+  "generatedAt": "2026-08-15T01:30:33.125Z",
   "normalizationCounts": {
     "actual": 108,
     "adopted": 47653,

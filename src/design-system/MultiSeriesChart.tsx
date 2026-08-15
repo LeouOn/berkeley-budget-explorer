@@ -3,7 +3,13 @@ import { useEffect, useId, useMemo, useRef } from "react";
 import type { Comparability } from "../pipeline/canonical/schema";
 import { COMPARE_PALETTE } from "../query/compare-engine";
 import styles from "./MultiSeriesChart.module.css";
-import { colorAtIndex, mountPlot, standardPlotStyle } from "./plot-utils";
+import {
+  colorAtIndex,
+  formatCentsAxis,
+  formatCentsPercentAxis,
+  mountPlot,
+  standardPlotStyle,
+} from "./plot-utils";
 
 export interface MultiSeriesPoint {
   readonly fiscalYear: number;
@@ -42,13 +48,7 @@ function yLabelFor(isPercentage: boolean): string {
 }
 
 function tickFormatFor(isPercentage: boolean): (d: number) => string {
-  if (isPercentage) return (d) => `${(d / 100).toFixed(1)}%`;
-  return (d) => {
-    if (Math.abs(d) >= 100000000) return `$${Math.round(d / 10000000) / 10}B`;
-    if (Math.abs(d) >= 100000) return `$${Math.round(d / 100000) / 10}M`;
-    if (Math.abs(d) >= 100) return `$${Math.round(d / 100) / 10}K`;
-    return `$${(d / 100).toFixed(0)}`;
-  };
+  return isPercentage ? formatCentsPercentAxis : formatCentsAxis;
 }
 
 function colorFor(colorIndex: number): string {

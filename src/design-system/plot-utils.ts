@@ -99,3 +99,27 @@ export function plotColors(n: number): readonly string[] {
 export function colorAtIndex(index: number): string {
   return PLOT_PALETTE[index % PLOT_PALETTE.length] ?? "var(--color-ink)";
 }
+
+const CENTS_PER_DOLLAR = 100;
+const CENTS_PER_THOUSAND = 100_000;
+const CENTS_PER_MILLION = 100_000_000;
+const CENTS_PER_BILLION = 100_000_000_000;
+
+export function formatCentsAxis(cents: number): string {
+  const abs = Math.abs(cents);
+  const sign = cents < 0 ? "-" : "";
+  if (abs >= CENTS_PER_BILLION) {
+    return `${sign}$${Math.round(abs / (CENTS_PER_BILLION / 10)) / 10}B`;
+  }
+  if (abs >= CENTS_PER_MILLION) {
+    return `${sign}$${Math.round(abs / (CENTS_PER_MILLION / 10)) / 10}M`;
+  }
+  if (abs >= CENTS_PER_THOUSAND) {
+    return `${sign}$${Math.round(abs / (CENTS_PER_THOUSAND / 10)) / 10}K`;
+  }
+  return `${sign}$${Math.round(abs / CENTS_PER_DOLLAR)}`;
+}
+
+export function formatCentsPercentAxis(basisPoints: number): string {
+  return `${(basisPoints / 100).toFixed(1)}%`;
+}

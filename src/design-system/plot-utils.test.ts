@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { colorAtIndex, plotColors, standardPlotStyle } from "./plot-utils";
+import {
+  colorAtIndex,
+  formatCentsAxis,
+  formatCentsPercentAxis,
+  plotColors,
+  standardPlotStyle,
+} from "./plot-utils";
 
 describe("plot-utils", () => {
   it("plotColors returns n distinct colors cycled from the palette", () => {
@@ -38,5 +44,23 @@ describe("plot-utils", () => {
     expect(style.width).toBe(720);
     expect(style.height).toBe(200);
     expect(style.marginRight).toBe(140);
+  });
+
+  it("formatCentsAxis renders cents as human dollar magnitudes", () => {
+    expect(formatCentsAxis(0)).toBe("$0");
+    expect(formatCentsAxis(9_300_000_000)).toBe("$93M");
+    expect(formatCentsAxis(6_750_000_000_000)).toBe("$67.5B");
+    expect(formatCentsAxis(125_000_000)).toBe("$1.3M");
+    expect(formatCentsAxis(45_000)).toBe("$450");
+  });
+
+  it("formatCentsAxis handles negative values", () => {
+    expect(formatCentsAxis(-2_500_000_000)).toBe("-$25M");
+  });
+
+  it("formatCentsPercentAxis renders basis points as percent", () => {
+    expect(formatCentsPercentAxis(0)).toBe("0.0%");
+    expect(formatCentsPercentAxis(1250)).toBe("12.5%");
+    expect(formatCentsPercentAxis(-450)).toBe("-4.5%");
   });
 });

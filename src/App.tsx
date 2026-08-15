@@ -1,6 +1,7 @@
 import { useEffect, useSyncExternalStore } from "react";
 import styles from "./App.module.css";
 import { Compare } from "./routes/Compare";
+import { ErrorBoundary } from "./routes/ErrorBoundary";
 import { Methodology } from "./routes/Methodology";
 import { Overview } from "./routes/Overview";
 import { Quality } from "./routes/Quality";
@@ -71,31 +72,35 @@ export function App(): React.JSX.Element {
   const serviceKey = serviceKeyFromHash(route);
   if (serviceKey) {
     return (
+      <ErrorBoundary>
+        <main id="main" tabIndex={-1}>
+          <Service serviceKey={serviceKey} />
+          <p className={styles.kbdHint} aria-hidden="true">
+            <kbd>Alt</kbd>+<kbd>1</kbd> Overview · <kbd>Alt</kbd>+<kbd>2</kbd> Compare ·{" "}
+            <kbd>Alt</kbd>+<kbd>3</kbd> Quality · <kbd>Alt</kbd>+<kbd>4</kbd> Methodology
+          </p>
+        </main>
+      </ErrorBoundary>
+    );
+  }
+
+  return (
+    <ErrorBoundary>
       <main id="main" tabIndex={-1}>
-        <Service serviceKey={serviceKey} />
+        {route === METHODOLOGY_HASH ? (
+          <Methodology />
+        ) : route === COMPARE_HASH ? (
+          <Compare />
+        ) : route === QUALITY_HASH ? (
+          <Quality />
+        ) : (
+          <Overview />
+        )}
         <p className={styles.kbdHint} aria-hidden="true">
           <kbd>Alt</kbd>+<kbd>1</kbd> Overview · <kbd>Alt</kbd>+<kbd>2</kbd> Compare ·{" "}
           <kbd>Alt</kbd>+<kbd>3</kbd> Quality · <kbd>Alt</kbd>+<kbd>4</kbd> Methodology
         </p>
       </main>
-    );
-  }
-
-  return (
-    <main id="main" tabIndex={-1}>
-      {route === METHODOLOGY_HASH ? (
-        <Methodology />
-      ) : route === COMPARE_HASH ? (
-        <Compare />
-      ) : route === QUALITY_HASH ? (
-        <Quality />
-      ) : (
-        <Overview />
-      )}
-      <p className={styles.kbdHint} aria-hidden="true">
-        <kbd>Alt</kbd>+<kbd>1</kbd> Overview · <kbd>Alt</kbd>+<kbd>2</kbd> Compare · <kbd>Alt</kbd>+
-        <kbd>3</kbd> Quality · <kbd>Alt</kbd>+<kbd>4</kbd> Methodology
-      </p>
-    </main>
+    </ErrorBoundary>
   );
 }

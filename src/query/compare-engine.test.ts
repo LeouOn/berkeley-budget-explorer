@@ -91,6 +91,28 @@ const population: readonly PopulationObservation[] = [
 const cpiAverages = fiscalYearAverage(parseCpiObservations(blsFixture));
 
 describe("compareSeries", () => {
+  it("falls back to nominal dollars for years beyond CPI coverage instead of throwing", () => {
+    const futureValues: readonly BudgetValue[] = [
+      ...values,
+      makeValue("ent-sco-cat-public-safety", 2026, 70_000_00),
+    ];
+    const result = compareSeries({
+      values: futureValues,
+      entities,
+      cpi: cpiAverages,
+      population,
+      entityIds: ["ent-sco-cat-public-safety"],
+      yearRange: [2019, 2026],
+      mode: "real",
+      unit: "absolute",
+      baseYear: 2024,
+    });
+    const ps = result.series.find((s) => s.entityId === "ent-sco-cat-public-safety");
+    const fy2026 = ps?.points.find((p) => p.fiscalYear === 2026);
+    expect(fy2026).toBeDefined();
+    expect(fy2026?.amountCents).toBe(70_000_00);
+  });
+
   it("produces one series per selected entity with points only for years that have data", () => {
     const result = compareSeries({
       values,

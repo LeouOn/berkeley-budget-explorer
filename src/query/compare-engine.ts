@@ -77,6 +77,8 @@ function scaleByMode(
   cpi: readonly FiscalYearAverage[],
 ): number {
   if (mode === "nominal" || fiscalYear === baseYear) return nominalCents;
+  const covered = cpi.some((a) => a.fiscalYear === fiscalYear);
+  if (!covered) return nominalCents;
   return inflateCents(nominalCents, fiscalYear, baseYear, cpi);
 }
 

@@ -1,7 +1,7 @@
 import * as Plot from "@observablehq/plot";
 import { useEffect, useId, useRef } from "react";
 import styles from "./TrendChart.module.css";
-import { mountPlot, standardPlotStyle } from "./plot-utils";
+import { formatCentsAxis, mountPlot, standardPlotStyle } from "./plot-utils";
 
 export interface TrendPoint {
   readonly fiscalYear: number;
@@ -34,7 +34,12 @@ export function TrendChart({
     mountPlot(node, {
       ...style,
       x: { label: "Fiscal year", tickFormat: (d) => String(d), nice: true },
-      y: { label: `${yLabel} (base ${baseYear})`, grid: true, nice: true },
+      y: {
+        label: `${yLabel} (base ${baseYear})`,
+        grid: true,
+        nice: true,
+        tickFormat: formatCentsAxis,
+      },
       marks: [
         Plot.ruleY([0]),
         Plot.line(points, {
@@ -49,14 +54,17 @@ export function TrendChart({
           fill: "var(--color-ink)",
           r: 3,
         }),
-        Plot.text(points, {
-          x: "fiscalYear",
-          y: "amountCents",
-          text: (d) => String(d.fiscalYear),
-          dy: -10,
-          fill: "var(--color-ink-muted)",
-          fontSize: 10,
-        }),
+        Plot.text(
+          points.filter((p, i) => i === 0 || i === points.length - 1),
+          {
+            x: "fiscalYear",
+            y: "amountCents",
+            text: (d) => `FY${d.fiscalYear}`,
+            dy: -10,
+            fill: "var(--color-ink-muted)",
+            fontSize: 10,
+          },
+        ),
       ],
     });
     return () => {

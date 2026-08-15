@@ -334,6 +334,10 @@ export function Compare(): React.JSX.Element {
                 Share-of-total uses the sum of all expense categories for each fiscal year, not just
                 the selected entities.
               </li>
+              <li>
+                Real-dollar mode needs CPI coverage (currently through FY2025). Years after that —
+                such as FY2026 adopted budgets — display nominal dollars.
+              </li>
             </ul>
           </section>
         </section>

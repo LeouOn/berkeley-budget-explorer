@@ -61,8 +61,24 @@ const freshnessColumns: readonly Column<(typeof data.freshness)[number]>[] = [
   { key: "date", header: "Retrieved", align: "end", render: (r) => r.retrievedAt },
 ];
 
+const SHORT_SOURCE_NAMES: Record<string, string> = {
+  "src-sco-expenditures-per-capita-ykhf-vfsr": "SCO exp/cap",
+  "src-sco-revenues-per-capita-ky7j-fsk5": "SCO rev/cap",
+  "src-sco-expenditures-ju3w-4gxp": "SCO detail",
+  "src-berkeley-socrata-gy8t-iqc4": "Socrata depts",
+  "src-bls-cpi-u-cuura422sa0": "BLS CPI",
+  "src-acfr-fy2025": "ACFR FY25",
+  "src-budget-fy2025": "Budget FY25",
+  "src-revenue-budget-fy2025": "Rev cats FY25",
+  "src-budget-history": "History FY22–26",
+};
+
+function shortSourceName(sourceId: string): string {
+  return SHORT_SOURCE_NAMES[sourceId] ?? sourceId;
+}
+
 const reconciliationColumns: readonly Column<(typeof data.reconciliation)[number]>[] = [
-  { key: "id", header: "Source", render: (r) => r.sourceId },
+  { key: "id", header: "Source", render: (r) => shortSourceName(r.sourceId) },
   { key: "status", header: "Reconciliation", align: "end", render: (r) => r.status },
 ];
 
@@ -70,7 +86,7 @@ const presenceColumns: readonly Column<(typeof data.yearPresenceRows)[number]>[]
   { key: "fy", header: "Fiscal year", render: (r) => `FY${r.fiscalYear}` },
   ...data.presenceSourceIds.map((sourceId) => ({
     key: `src-${sourceId}`,
-    header: sourceId,
+    header: shortSourceName(sourceId),
     align: "end" as const,
     render: (row: (typeof data.yearPresenceRows)[number]) => {
       const cell = row.cells.find((c) => c.sourceId === sourceId);

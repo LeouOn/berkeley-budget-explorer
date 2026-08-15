@@ -193,7 +193,7 @@ export function Service({ serviceKey }: ServiceRouteProps): React.JSX.Element {
             points={trend.points}
             baseYear={baseYear}
             yLabel="Total citywide expenditures"
-            ariaLabel={`Citywide standardized expenditures for ${service.label}, FY2003 to FY2024.`}
+            ariaLabel={`Citywide total expenditures, shown as context for the ${service.label} service, FY2003 to FY2024.`}
             summary={trend.summary}
           />
         ) : (
